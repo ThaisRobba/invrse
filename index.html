@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<div class="blog-summary">
+   <span>Through my words I've left everything familiar behind, now only I and the machine remain.</span>
+</div>
+
+<div class="home">
+
+    <ul class="padding-left-zero">
+      {% for post in site.posts %}
+        <li class="list-style-none"><a class="link-homelist" href="{{ post.url }}">{{ post.title }}</a><p class="post-meta float-right">{{ post.date | date: "%b %-d, %Y" }}</p>
+</li>
+      {% endfor %}
+    </ul>
+
+<!--
+  <div class="posts">
+    {% for post in paginator.posts %}
+      <div class="post {% if site.animated %}animated fade-in-down{% endif %}">
+        <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
+          <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
+          <h3 class="h2 post-title">{{ post.title }}</h3>
+          <p class="post-summary">{{ post.summary }}</p>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+
+  {% include pagination.html %} -->
+
+</div>
