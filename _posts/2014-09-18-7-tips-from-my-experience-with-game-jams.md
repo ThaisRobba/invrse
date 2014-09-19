@@ -21,8 +21,7 @@ Getting to the jam location *before* it starts guarantees you a good spot (my te
 Being early also allows you to setup shop beforehand, saving precious time. It also allows you to work out all the kinks with the team's workflow.
 
 We had a member whose Dropbox was completely full - being early allowed us to create a new account for him, set it all up and get everyone synced.
-Which brings us to:
-
+Just be early.
 
 ###2 - Use any sharing/revision system
 
@@ -84,12 +83,11 @@ I have yet to see a (physical) jam last exactly 48 hours. They usually start a l
 and end a little bit earlier. On the last jam, in which we made [Jam Leon](http://www.ottorobba.com/spjam),
 we actually used about 24 hours total.
 
-"Nah, it is 48 hours! I'm gonna power through it with caffeine and rebull"
+"Nah, it is 48 hours! I'm gonna power through it with caffeine and redbull! Whooooo!"
 
 Sleep deprivation is your enemy. If you are high on coffee and energetics,
 stop. Look at your work. More likely than not, it is crap. Go home, rest, come back
 after taking a shower. It makes a world of difference.
-
 
 
 ###6 - Your game should be 'done' by Saturday
