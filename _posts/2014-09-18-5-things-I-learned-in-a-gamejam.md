@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      5 things I learned in a gamejam
+title:      7 things I learned with game jams
 date:       2014-09-18 20:00:00
 categories: gamejam
 comments:   true
