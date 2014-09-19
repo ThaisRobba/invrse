@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      7 things I learned with game jams
+title:      7 tips from my experience with game jams
 date:       2014-09-18 20:00:00
 categories: gamejam
 comments:   true
