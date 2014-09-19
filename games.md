@@ -6,6 +6,8 @@ permalink: /games/
 
 Only 100% natural, home-made entertainment!
 
+![Argby thumbnail]({{site.baseurl}}/assets/thumbnail_argby.png)
+
 [Argby](https://dl.dropboxusercontent.com/u/260791168/argby/index.html) - Global Game Jam 2014
 
 [Jam Leon](http://www.ottorobba.com/spjam) - SPJam 2014
