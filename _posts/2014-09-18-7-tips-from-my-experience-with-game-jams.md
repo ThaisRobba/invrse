@@ -8,7 +8,7 @@ comments:   true
 ---
 
 Participating in game jams can be quite daunting (and exhausting).
-There is a lot to do and time is shorter than it seem.
+There is a lot to do and time is *a lot* shorter than it seems.
 
 At the same time, it is an incredibly fun experience in which you get to meet all kind of folks and see all kind of games.
 In order to better enjoy whatever jam that you are going into, here are 6 quick tips from this survivor.
