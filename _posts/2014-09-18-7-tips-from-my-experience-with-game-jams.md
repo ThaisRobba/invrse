@@ -83,7 +83,7 @@ I have yet to see a (physical) jam last exactly 48 hours. They usually start a l
 and end a little bit earlier. On the last jam, in which we made [Jam Leon](http://www.ottorobba.com/spjam),
 we actually used about 24 hours total.
 
-"Nah, it is 48 hours! I'm gonna power through it with caffeine and redbull! Whooooo!"
+"Nah, it is 48 hours! I'm gonna power through it with caffeine and redbull!"
 
 Sleep deprivation is your enemy. If you are high on coffee and energetics,
 stop. Look at your work. More likely than not, it is crap. Go home, rest, come back
