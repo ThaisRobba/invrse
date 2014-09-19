@@ -12,7 +12,7 @@ There is a lot to do and time is shorter than it seem.
 At the same time, it is an incredibly fun experience in which you get to meet all kind of folks and see all kind of games.
 In order to better enjoy whatever jam that you are going into, here are 6 quick tips from this survivor.
 
-##1
+#1
 
 ###Don't be on time. Be early.
 
@@ -22,7 +22,7 @@ Being early also allows you to setup shop beforehand, saving precious time. It a
 We had a member whose Dropbox was completely full - being early allowed us to create a new account for him, set it all up and get everyone synced.
 Which brings us to:
 
-##2
+#2
 
 ###Use any sharing/revision system
 
@@ -33,7 +33,7 @@ I just cannot stress enough how important this is.
 On the last jam I went to, this meant that the team member that got sick and had to work from home was always in the loop. The artists could simple drop the finished
 assets on top of my placeholders and the game, being made on html5, was playable by any member at all times. How awesome is that?
 
-##3
+#3
 
 ###Placeholders are your friends
 
@@ -65,7 +65,7 @@ Note: at the end of the jam, I regretted not having created a work_assets folder
 We were getting .ai and .psd files inside the art folder and that was awful from
 a distribution and sanity point of view.
 
-##4
+#4
 
 ###Eat healthy
 
@@ -78,7 +78,7 @@ In the last jam, by the last day, we were hungering for healthier, warm meals.
 My personal advice is taking healthy foods that last all day long, like sandwiches,
 fruits, nuts and if possible, ordering food for lunch/dinner.
 
-##5
+#5
 
 ###The 48 hours are a lie & you should go to bed
 
@@ -92,7 +92,7 @@ Sleep deprivation is your enemy. If you are high on coffee and energetics,
 stop. Look at your work. More likely than not, it is crap. Go home, rest, come back
 after taking a shower. It makes a world of difference.
 
-##6
+#6
 
 ###Your game should be 'done' by Saturday
 
@@ -112,7 +112,7 @@ but the gameplay should at least show the intention of the developers.
 Our team could have done better - had I managed to finish the mechanics earlier, we could have playtested
 and seen that the current level design is shallow and either too easy or impossible (I had to speed up the character just so people could win the game).
 
-##7
+#7
 
 ###Go. Participate.
 
