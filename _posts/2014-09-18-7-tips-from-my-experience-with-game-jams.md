@@ -12,6 +12,7 @@ There is a lot to do and time is shorter than it seem.
 At the same time, it is an incredibly fun experience in which you get to meet all kind of folks and see all kind of games.
 In order to better enjoy whatever jam that you are going into, here are 6 quick tips from this survivor.
 
+![Coding away!]({{site.baseurl}}/assets/computador_mesa.png)
 
 ###1 - Don't be on time. Be early.
 
