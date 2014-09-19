@@ -1,6 +1,5 @@
 ---
 layout: default
-comments: true
 ---
 <div class="post-header mb2">
   <h1 class="py2 center">{{ page.title }}</h1>
@@ -13,9 +12,9 @@ comments: true
 
 
 {% if page.comments %}
+<div id="disqus_thread"></div>
 <script type="text/javascript">
-/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-var disqus_shortname = 'invrse'; // required: replace example with your forum shortname
+var disqus_shortname = 'invrse';
 
 /* * * DON'T EDIT BELOW THIS LINE * * */
 (function () {
@@ -26,4 +25,5 @@ var disqus_shortname = 'invrse'; // required: replace example with your forum sh
 }());
 </script>
     <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 {% endif %}
