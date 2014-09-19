@@ -12,9 +12,8 @@ There is a lot to do and time is shorter than it seem.
 At the same time, it is an incredibly fun experience in which you get to meet all kind of folks and see all kind of games.
 In order to better enjoy whatever jam that you are going into, here are 6 quick tips from this survivor.
 
-#1
 
-###Don't be on time. Be early.
+###1 - Don't be on time. Be early.
 
 Getting to the jam location *before* it starts guarantees you a good spot (my team got a 'premium' location with a blackboard because we were early).
 Being early also allows you to setup shop beforehand, saving precious time. It also allows you to work out all the kinks with the team's workflow.
@@ -22,9 +21,8 @@ Being early also allows you to setup shop beforehand, saving precious time. It a
 We had a member whose Dropbox was completely full - being early allowed us to create a new account for him, set it all up and get everyone synced.
 Which brings us to:
 
-#2
 
-###Use any sharing/revision system
+###2 - Use any sharing/revision system
 
 I do mean any. Dropbox is not perfect but for newbies and the technology-averse it is dead easy. I would not recommend it for a team
 with multiple programmers but for smaller teams - or teams in which there is no overlap -  it works quite well.
@@ -33,9 +31,8 @@ I just cannot stress enough how important this is.
 On the last jam I went to, this meant that the team member that got sick and had to work from home was always in the loop. The artists could simple drop the finished
 assets on top of my placeholders and the game, being made on html5, was playable by any member at all times. How awesome is that?
 
-#3
 
-###Placeholders are your friends
+###3 - Placeholders are your friends
 
 I came to the jam with some basic presets already in place. I had structured the game folder like so:
 
@@ -65,9 +62,8 @@ Note: at the end of the jam, I regretted not having created a work_assets folder
 We were getting .ai and .psd files inside the art folder and that was awful from
 a distribution and sanity point of view.
 
-#4
 
-###Eat healthy
+###4 - Eat healthy
 
 It is **really** easy to just let go and eat junk food during the entire jam. Don't.
 A cookie here and there is ok but you really don't want stomach cramps,
@@ -78,9 +74,9 @@ In the last jam, by the last day, we were hungering for healthier, warm meals.
 My personal advice is taking healthy foods that last all day long, like sandwiches,
 fruits, nuts and if possible, ordering food for lunch/dinner.
 
-#5
 
-###The 48 hours are a lie & you should go to bed
+
+###5 - The 48 hours are a lie & you should go to bed
 
 I have yet to see a (physical) jam last exactly 48 hours. They usually start a little bit late
 and end a little bit earlier. On the last jam, in which we made [Jam Leon](http://www.ottorobba.com/spjam),
@@ -92,9 +88,9 @@ Sleep deprivation is your enemy. If you are high on coffee and energetics,
 stop. Look at your work. More likely than not, it is crap. Go home, rest, come back
 after taking a shower. It makes a world of difference.
 
-#6
 
-###Your game should be 'done' by Saturday
+
+###6 - Your game should be 'done' by Saturday
 
 On Friday, you usually want to brainstorm, then settle on an idea, refine it a bit and just go make the 
 prototype(s - plural if you are fast and lucky).
@@ -112,9 +108,9 @@ but the gameplay should at least show the intention of the developers.
 Our team could have done better - had I managed to finish the mechanics earlier, we could have playtested
 and seen that the current level design is shallow and either too easy or impossible (I had to speed up the character just so people could win the game).
 
-#7
 
-###Go. Participate.
+
+###7 - Go. Participate.
 
 You never know who you will meet nor what you will achieve. I get ecstatic about
 game jams, I really get in the zone when I'm in them. I've met and befriended musicians,
