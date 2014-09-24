@@ -51,6 +51,8 @@ Don't like the scroll bar? Change it. Not happy with the cursor color? Change it
 
 It might take a bit longer to perfect the tool for your liking but after you do so, anything else will feel wrong.
 
+![Atom after I customized it to my liking]({{site.baseurl}}/assets/atom_custom.png)
+
 ##Collaborative & highly engaging
 
 Perhaps the most beautiful thing about Atom is also the one that is most subtle. Github made the very smart choice of having packages be simple git repositories - this means that collaborating is extremely easy and has spurred great growth.
@@ -58,8 +60,6 @@ Perhaps the most beautiful thing about Atom is also the one that is most subtle.
 Heck, I've made [a little package](https://atom.io/packages/language-moonscript) myself - it just is that easy.
 
 Never underestimate the importance of a thriving community - it is by itself a positive feature on any piece of software.
-
-![Atom after I customized it to my liking]({{site.baseurl}}/assets/atom_custom.png)
 
 ##Is it for you?
 I've used it to write Lua, Moonscript, Javascript, HTML, CSS and Markdown - it has performed admirably in all cases.
