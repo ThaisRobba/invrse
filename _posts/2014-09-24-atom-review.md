@@ -43,11 +43,11 @@ Along many other functionalities - everything you need to make Atom feel like *t
 
 ##Splitting the atom
 
-Part of the reason why Atom is so incredibly extensible is due to the architecture choices made by the folks at Github. It is coded in Coffeescript and runs on top of Atom-Shell - essentially a browser-view for native desktop applications.
+The reason why Atom is so incredibly extensible is due to the architecture choices made by the folks at Github. It is coded in Coffeescript and runs on top of Atom-Shell - essentially a browser-view for native desktop applications.
 
-You can freely open the developer tools - the same ones you have on Chrome/Chromium - and modify anything you see to your hearts content. Don't like the scroll bar? Change it.
+You can freely open the developer tools - the same ones you have on Chrome/Chromium - and modify anything you see to your hearts content.
 
-Further freedom is possible by customizing keyboard shortcuts and, of course, the often-mentioned packages.
+Don't like the scroll bar? Change it. Not happy with the cursor color? Change it. All of this accessible by pressing *Ctrl+Shift+i* (Cmd+Shift+i on Mac).
 
 It might take a bit longer to perfect the tool for your liking but after you do so, anything else will feel wrong.
 
