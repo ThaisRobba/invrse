@@ -47,7 +47,7 @@ The reason why Atom is so incredibly extensible is due to the architecture choic
 
 You can freely open the developer tools - the same ones you have on Chrome/Chromium - and modify anything you see to your hearts content.
 
-Don't like the scroll bar? Change it. Not happy with the cursor color? Change it. All of this accessible by pressing *Ctrl+Shift+i* (Cmd+Shift+i on Mac).
+Don't like the scroll bar? Change it. Not happy with the cursor color? Change it. All of this accessible by pressing **Ctrl+Shift+I** (Cmd+Shift+I on Mac).
 
 It might take a bit longer to perfect the tool for your liking but after you do so, anything else will feel wrong.
 
