@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Atom review - Learn to love the bomb
-date:       2014-09-18 20:00:00
+date:       2014-09-24 20:00:00
 permalink:  atom-editor-review
 categories: review, text editor
 comments:   true
