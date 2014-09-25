@@ -34,10 +34,10 @@ These extra packages are highly useful and greatly extend Atom's usability. Amon
 - Beautifiers
 - Linters
 - Spell Checkers
-- Git integration
+- Deep Git integration
 - Compiling tools
 
-Along many other functionalities - everything you need to make Atom feel like *the* text editor.
+Along many other functionalities - [everything you need]({{site.baseurl}}/atom-recommended-packages) to make Atom feel like *the* text editor.
 ![Atoms package manager]({{site.baseurl}}/assets/atom_package.png)
 
 
@@ -68,4 +68,4 @@ I'm fully aware that it isn't the best tool for  every job - for instance, it do
 
 With all of that in mind, there really is no harm in trying Atom out - it is free and open source and you just might love it.
 
-If you have tried it, feel free to share your configuration and what packages you deem essential. :)
+If you have tried it, feel free to share your configuration and what [packages you deem essential]({{site.baseurl}}/atom-recommended-packages). :)
