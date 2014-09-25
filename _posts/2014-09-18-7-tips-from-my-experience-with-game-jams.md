@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      7 tips to survive Game Jams
+title:      7 tips to survive gamejams
 date:       2014-09-18 20:00:00
 permalink:  surviving-a-game-jam
 categories: gamejam
