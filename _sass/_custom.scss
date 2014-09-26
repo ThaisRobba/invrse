@@ -1,71 +1,112 @@
 .list-style-none {
-   list-style: none;
+  list-style: none;
 }
 
 @media screen and (min-width: 48em) {
-   .float-right {
-      float: right;
-   }
-   
-   .games-gallery {
-       width: 30%;
-       margin-left: 3%;
-   }
+  .float-right {
+    float: right;
+  }
+  .float-left {
+    float: left;
+  }
 }
 
+@media screen and (min-width: 38em) {
+  .games-gallery {
+    width: 47%;
+  }
+  li.games-gallery:nth-child(even) {
+    margin-left: 6%;
+  }
+}
+
+@media screen and (max-width: 37.9em) {
+  .games-gallery {
+    width: 100%;
+  }
+  .game-list-float-right {
+    float: right;
+  }
+  .game-list-float-left {
+    float: left;
+  }
+  
+  .game-description {
+    font-size: 1.3rem !important;
+  }
+}
+
+canvas {
+    width:100%;
+}
 img {
-    border-radius: .3em;
+  border-radius: 0.3em;
 }
 
 .games-gallery {
-    float:left;
-
+  float: left;
+  margin-bottom: 2rem;
 }
 
-.game-list {
-    padding-bottom: 230px;
+.description-margin {
+    width: 96%;
+    margin: 0 auto 0 !important;
 }
+
+ul.game-list {
+  padding-bottom: 230px;
+  margin-bottom: 0 !important;
+}
+
+.game-description {
+  color: gray;
+  font-family: "Lato","Helvetica Neue",Helvetica,sans-serif;
+  font-size: 1rem;
+}
+
 .logo {
-   margin-left: -64px;
+  margin-left: -64px;
 }
 
 .padding-left-zero {
-   padding-left: 0px;
-}
+  padding-left: 0;
 
+}
 .link-homelist {
-   font-family: "Lato","Helvetica Neue",Helvetica,sans-serif;
-   //font-weight: bold;
-   font-size: 1.6rem;
+  //font-weight: bold;  font-family: "Lato","Helvetica Neue",Helvetica,sans-serif;  font-size: 1.6rem;
 }
 
 .mt2 {
-   margin-top: 0em;
+  margin-top: 0;
+
 }
 
 .site-nav {
-   margin-top: 1.5rem;
+  margin-top: 1.5rem;
+
 }
 
 .blog-summary {
-   border: 0;
-   font-size: 1.17rem;
-   font-style:italic;
-   color:#8A8A8A;
-   border-top:1px solid rgba(0, 0, 0, 0.07);
-   border-bottom: 1px solid rgba(0, 0, 0, 0.07);
-   padding: 1rem 0 1rem;
-   margin-bottom: 3rem;
+  border       : 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+  border-top   : 1px solid rgba(0, 0, 0, 0.07);
+  color        : #8a8a8a;
+  font-size    : 1.17rem;
+  font-style   : italic;
+  margin-bottom: 3rem;
+  padding      : 1rem 0;
+
 }
 
 a {
-   color: rgba(204, 0, 187, 1);
+  color: rgba(204, 0, 187, 1);
 }
 
 a:hover {
-   color: rgb(241, 52, 235);
+  color: rgb(241, 52, 235);
 }
 
-.highlight, .gist-syntax .highlight {
-    border-radius: 3px !important;
+.highlight,
+.gist-syntax .highlight {
+  border-radius: 3px !important;
 }
