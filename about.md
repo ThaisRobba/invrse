@@ -29,7 +29,7 @@ Maybe I could learn by myself. Maybe now with the internet I can actually find t
 For the past year and a half I've been studying programming and I've completely fallen in love with it.
 
 So what do I do now? I make games! I've participated in the 2014's Global Game Jam and the SPJam
-(in which we won a prize for [our game!](http://www.ottorobba.com/spjam) Yay!)
+(in which we won a prize for [our game!]({{site.url}}/games/jamleon/) Yay!)
 
 I love what I do. Yes, it is hard. Yes, it is at times very frustrating.
 I feel extremely happy when I do it though.
