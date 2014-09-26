@@ -65,7 +65,12 @@ ul.game-list {
 }
 
 .logo {
-  margin-left: -64px;
+  margin-left: -72px;
+  margin-top: -22px;
+}
+
+.no-border-radius {
+    border-radius: 0px !important;
 }
 
 .padding-left-zero {
@@ -91,7 +96,7 @@ ul.game-list {
   border-bottom: 1px solid rgba(0, 0, 0, 0.07);
   border-top   : 1px solid rgba(0, 0, 0, 0.07);
   color        : #8a8a8a;
-  font-size    : 1.17rem;
+  font-size    : 1.15rem;
   font-style   : italic;
   margin-bottom: 3rem;
   padding      : 1rem 0;
