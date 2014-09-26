@@ -196,7 +196,8 @@ abbr {
 }
 
 pre, code {
-  font-family: Menlo, Monaco, "Courier New", monospace
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: .8rem;
 }
 
 code {
@@ -212,7 +213,7 @@ pre {
 }
 
 .highlight .p {
-  font-size: 1.125rem;
+  font-size: .8rem;
   line-height: 1;
 }
 
