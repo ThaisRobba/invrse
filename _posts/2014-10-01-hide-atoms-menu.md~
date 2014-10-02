@@ -61,9 +61,9 @@ this.browserWindow = new BrowserWindow({
 
 ###This feels wrong
 
-Ideally, it should be an option for Atom to hide or show the menu, just like pretty much everything else is already. Until someone commits the needed changes though, this is the one of the ways to do it. On the plus side, you retain *some* menu functionality. Pressing **ALT** reveals Atoms menus - at least on Linux.
+Ideally, it should be an option for Atom to hide or show the menu, just like pretty much everything else is already. Until someone commits the needed changes though, this is the only way to do it.
 
-I find that the end result is worth the minute you spend modifying the source.
+I find that the end result is worth the 2 minutes you spend modifying the source.
 
 ![Beauty incarnate]({{site.baseurl}}/assets/atom_without_menu.png)
 
