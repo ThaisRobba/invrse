@@ -38,7 +38,6 @@ Find the entry below:
 this.browserWindow = new BrowserWindow({
     show: false,
     title: 'Atom',
-
     icon: this.constructor.iconPath,
     'web-preferences': {
       'subpixel-font-scaling': false
