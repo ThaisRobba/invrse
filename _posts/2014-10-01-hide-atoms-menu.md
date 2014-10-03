@@ -30,7 +30,8 @@ Open up a terminal window (**Ctrl+Alt+T** in Ubuntu based distros) and paste the
     sudo gedit '/opt/atom/resources/app/src/browser/atom-window.js'
 
 **Note:** Replace gedit with whatever editor you want to use
-**Note for Windows users:** I don't know where Atom is installed but the path inside the folder should be similar.
+
+**Note for Windows users:** Atom *should* be installed under C:\Programs or something like that and the internal folder structure should be the same.
 
 Find the entry below:
 
@@ -60,7 +61,7 @@ this.browserWindow = new BrowserWindow({
 
 ###This feels wrong
 
-Ideally, it should be an option for Atom to hide or show the menu, just like pretty much everything else is already. Until someone commits the needed changes though, this is the one of the ways to do it. On the plus side, you retain *some* menu functionality. Pressing **ALT** reveals Atoms menus - at least on Linux.
+Ideally, it should be an option for Atom to hide or show the menu, just like pretty much everything else is already. Until someone commits the needed changes though, this is one of the ways to do it. On the plus side, you retain *some* menu functionality. Pressing **ALT** reveals Atoms menus - at least on Linux.
 
 I find that the end result is worth the minute you spend modifying the source.
 
