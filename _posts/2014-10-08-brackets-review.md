@@ -73,6 +73,6 @@ Among many others that greatly improve the user experience.
 
 ###Would I recommend it?
 
-It is a solid editor and I can heartily recommend it! I would be remiss, however, to point out the obvious flaws it has, mainly the lackluster splitview and the lack of a snippets system integrated (there is a package but it is not great).
+It is a solid editor and I can heartily recommend it! I would be remiss, however, if I didn't point out the obvious flaws it has, mainly the lackluster splitview and the lack of a (good) snippets system.
 
 That said, I wouldn't use anything else for front-end development and I can see it becoming popular with HTML5 game devs in the future.
