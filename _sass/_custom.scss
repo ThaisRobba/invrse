@@ -40,8 +40,14 @@ canvas {
     width:100%;
 }
 img {
-  border-radius: 0.3em;
+  border-radius: 0.4em;
 }
+
+video {
+  border-radius: .4em ;
+  margin-bottom: .5em;
+}
+
 
 .games-gallery {
   float: left;
@@ -78,7 +84,9 @@ ul.game-list {
 
 }
 .link-homelist {
-  //font-weight: bold;  font-family: "Lato","Helvetica Neue",Helvetica,sans-serif;  font-size: 1.6rem;
+  //font-weight: bold;
+  font-family: "Lato","Helvetica Neue",Helvetica,sans-serif;
+  font-size: 1.6rem;
 }
 
 .mt2 {

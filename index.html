@@ -2,19 +2,20 @@
 layout: default
 ---
 <div class="blog-summary">
-   <span>Through my words I've left everything familiar behind, now only I and the machine remain.</span>
+    <span>Through my words I've left everything familiar behind, now only I and the machine remain.</span>
 </div>
 
 <div class="home">
 
     <ul class="padding-left-zero">
-      {% for post in site.posts %}
-        <li class="list-style-none"><a class="link-homelist" href="{{ post.url }}">{{ post.title }}</a><p class="post-meta float-right">{{ post.date | date: "%b %-d, %Y" }}</p>
+        {% for post in site.posts %}
+        <li class="list-style-none"><a class="link-homelist" href="{{ post.url }}">{{ post.title }}</a>
+            <p class="post-meta float-right">{{ post.date | date: "%b %-d, %Y" }}</p>
         </li>
-      {% endfor %}
+        {% endfor %}
     </ul>
 
-<!--
+    <!--
   <div class="posts">
     {% for post in paginator.posts %}
       <div class="post {% if site.animated %}animated fade-in-down{% endif %}">
