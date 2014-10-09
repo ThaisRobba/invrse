@@ -31,7 +31,7 @@ For web developers, one of the biggest arguments in favor of Brackets is the Qui
 While decidely powerful, its power doesn't translate as well for Javascript game developers. It is hardly used for anything other than changing colors - which is really nice but not groundbreaking.
 
 <video id="video" autobuffer >
-<source src="{{site.baseurl}}/assets/brackets_colors.m4v">
+<source src="{{site.baseurl}}/assets/brackets_colors.m4v" type="video/mv4">
 <source src="{{site.baseurl}}/assets/brackets_colors.mp4" type="video/mp4">
 </video>
 
