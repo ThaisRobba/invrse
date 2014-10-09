@@ -59,7 +59,7 @@ One of the nicest features for HTML5 developers is the live preview. Clicking th
 
 
 <video autoplay="autoplay" loop width="100%" autobuffer controls>
-   <source src="{{site.baseurl}}/assets/brackets_preview.webm" type="video/webm">
+<!--   <source src="{{site.baseurl}}/assets/brackets_preview.webm" type="video/webm">-->
       <source src="{{site.baseurl}}/assets/brackets_preview.mp4" type="video/mp4">
 
    Your browser does not support the <code>video</code> element. Time to upgrade!</video>
