@@ -35,7 +35,7 @@ While decidely powerful, its power doesn't translate as well for Javascript game
 <source src="{{site.baseurl}}/assets/brackets_colors.mp4" type="video/mp4">
 </video>
 
-<video autoplay="autoplay" src="{{site.baseurl}}/assets/brackets_colors.mp4"loop width="100%" max-height="280" autobuffer>Your browser does not support the <code>video</code> element :(</video>
+
 
 I am curious to see in which direction they go with this - it definitely has potential.
 
