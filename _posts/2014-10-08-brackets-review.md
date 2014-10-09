@@ -58,7 +58,7 @@ There are a few limitations to this smart hinting, however. It sometimes offers 
 One of the nicest features for HTML5 developers is the live preview. Clicking the lighting icon on the top right launches an instance of Chrome or Chromium and any and all changes you make are reloaded live. 
 
 
-<video autoplay="autoplay" loop width="100%">
+<video autoplay="autoplay" loop width="100%" autobuffer>
    <source src="{{site.baseurl}}/assets/brackets_preview.webm" type="video/webm">
       <source src="{{site.baseurl}}/assets/brackets_preview.mp4" type="video/mp4">
 
