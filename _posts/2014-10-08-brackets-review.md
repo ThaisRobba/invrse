@@ -24,13 +24,21 @@ Using Brackets feels intuitive and pleasant.
 
 ###You never have to leave
 
+<video autoplay="autoplay" loop width="100%">
+   <source src="{{site.baseurl}}/assets/brackets_edit.mp4" type="video/mp4">
+   <source src="{{site.baseurl}}/assets/brackets_edit.webm" type="video/webm">
+   Your browser does not support the <code>video</code> element. Time to upgrade!</video>
+
 For web developers, one of the biggest arguments in favor of Brackets is the Quick Edit feature. In essence, it allows you to highlight a piece of code in html and edit the corresponding css inline. It can be further modified through plugins, making it capable of working with things like css gradients.
 
-<video src="{{site.baseurl}}/assets/brackets_edit.mp4" autoplay="autoplay" loop width="100%">Your browser does not support the <code>video</code> element :(</video>
+
 
 While decidely powerful, its power doesn't translate as well for Javascript game developers. It is hardly used for anything other than changing colors - which is really nice but not groundbreaking.
 
-<video src="{{site.baseurl}}/assets/brackets_colors.mp4" autoplay="autoplay" loop width="100%">Your browser does not support the <code>video</code> element :(</video>
+<video autoplay="autoplay" loop width="100%">
+   <source src="{{site.baseurl}}/assets/brackets_colors.mp4" type="video/mp4">
+   <source src="{{site.baseurl}}/assets/brackets_colors.webm" type="video/webm">
+   Your browser does not support the <code>video</code> element. Time to upgrade!</video>
 
 I am curious to see in which direction they go with this - it definitely has potential.
 
@@ -38,9 +46,10 @@ I am curious to see in which direction they go with this - it definitely has pot
 
 Brackets shines when working with Javascript due to its smart hinting - not only does if offer the most sane option for completion but when calling a function, it tells you what arguments can be passed. It might seem a small thing but this detail saves us a trip to memory lane and time wasted looking at documentation or trying to find the right function in the source code.
 
-<video src="{{site.baseurl}}/assets/brackets_js_hint.mp4" autoplay="autoplay" loop width="100%">Your browser does not support the <code>video</code> element :(</video>
-
-<!--![javascript hinting]({{site.baseurl}}/assets/brackets_js_hint.gif)-->
+<video autoplay="autoplay" loop width="100%">
+   <source src="{{site.baseurl}}/assets/brackets_js_hint.mp4" type="video/mp4">
+   <source src="{{site.baseurl}}/assets/brackets_js_hint.webm" type="video/webm">
+   Your browser does not support the <code>video</code> element. Time to upgrade!</video>
 
 There are a few limitations to this smart hinting, however. It sometimes offers options that are completely nonsensical (like jQuery autocomplete when I was making a game in Phaser) and it does suffer with larger files - the standard phaser.js, which weighs in at 2mb or so, can't be used for completion by Brackets. Big bummer but something that they can eventually overcome.
 
@@ -48,8 +57,12 @@ There are a few limitations to this smart hinting, however. It sometimes offers 
 
 One of the nicest features for HTML5 developers is the live preview. Clicking the lighting icon on the top right launches an instance of Chrome or Chromium and any and all changes you make are reloaded live. 
 
-<video src="{{site.baseurl}}/assets/brackets_preview.mp4" autoplay="autoplay" loop width="100%">Your browser does not support the <code>video</code> element :(</video>
 
+<video autoplay="autoplay" loop width="100%">
+   <source src="{{site.baseurl}}/assets/brackets_preview.mp4" type="video/mp4">
+   <source src="{{site.baseurl}}/assets/brackets_preview.webm" type="video/webm">
+   Your browser does not support the <code>video</code> element. Time to upgrade!</video>
+   
 This means that testing things like gravity in a plataformer or shadows with raycasting is really quick and easy.
 
 It also means that the user doesn't have to start a server before testing a HTML5 game.
