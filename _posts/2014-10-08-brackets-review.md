@@ -38,7 +38,7 @@ I am curious to see in which direction they go with this - it definitely has pot
 
 Brackets shines when working with Javascript due to its smart hinting - not only does if offer the most sane option for completion but when calling a function, it tells you what arguments can be passed. It might seem a small thing but this detail saves us a trip to memory lane and time wasted looking at documentation or trying to find the right function in the source code.
 
-<video src="{{site.baseurl}}/assets/brackets_js_hint-android.mp4" autoplay="autoplay" loop width="100%">Your browser does not support the <code>video</code> element :(</video>
+<video src="{{site.baseurl}}/assets/brackets_js_hint.mp4" autoplay="autoplay" loop width="100%">Your browser does not support the <code>video</code> element :(</video>
 
 
 There are a few limitations to this smart hinting, however. It sometimes offers options that are completely nonsensical (like jQuery autocomplete when I was making a game in Phaser) and it does suffer with larger files - the standard phaser.js, which weighs in at 2mb or so, can't be used for completion by Brackets. Big bummer but something that they can eventually overcome.
