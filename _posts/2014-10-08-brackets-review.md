@@ -47,6 +47,8 @@ I am curious to see in which direction they go with this - it definitely has pot
 Brackets shines when working with Javascript due to its smart hinting - not only does if offer the most sane option for completion but when calling a function, it tells you what arguments can be passed. It might seem a small thing but this detail saves us a trip to memory lane and time wasted looking at documentation or trying to find the right function in the source code.
 
 <video autoplay="autoplay" loop width="100%">
+   <source src="{{site.baseurl}}/assets/brackets_js_hint.ogg" type="video/ogg">
+
    <source src="{{site.baseurl}}/assets/brackets_js_hint.mp4" type="video/mp4">
    <source src="{{site.baseurl}}/assets/brackets_js_hint.webm" type="video/webm">
    Your browser does not support the <code>video</code> element. Time to upgrade!</video>
@@ -59,7 +61,7 @@ One of the nicest features for HTML5 developers is the live preview. Clicking th
 
 
 <video autoplay="autoplay" loop width="100%" autobuffer controls>
-<!--   <source src="{{site.baseurl}}/assets/brackets_preview.webm" type="video/webm">-->
+   <source src="{{site.baseurl}}/assets/brackets_preview.webm" type="video/webm">
       <source src="{{site.baseurl}}/assets/brackets_preview.mp4" type="video/mp4">
 
    Your browser does not support the <code>video</code> element. Time to upgrade!</video>
