@@ -37,7 +37,7 @@ While decidely powerful, its power doesn't translate as well for Javascript game
 
 
 
-I am curious to see in which direction they go with this - it definitely has potential.
+I am curious to see in which direction they go with this - it definitely has potential!
 
 ###Hinting? Yes please!
 
