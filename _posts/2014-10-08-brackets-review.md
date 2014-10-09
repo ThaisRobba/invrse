@@ -30,9 +30,8 @@ For web developers, one of the biggest arguments in favor of Brackets is the Qui
 
 While decidely powerful, its power doesn't translate as well for Javascript game developers. It is hardly used for anything other than changing colors - which is really nice but not groundbreaking.
 
-<video id="video" autobuffer >
+<video id="video" autobuffer autoplay="autoplay">
 <source src="{{site.baseurl}}/assets/brackets_colors.m4v" type="video/mv4">
-<source src="{{site.baseurl}}/assets/brackets_colors.mp4" type="video/mp4">
 </video>
 
 <video autoplay="autoplay" src="{{site.baseurl}}/assets/brackets_colors.mp4"loop width="100%" max-height="280" autobuffer>Your browser does not support the <code>video</code> element :(</video>
