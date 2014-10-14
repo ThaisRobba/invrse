@@ -276,7 +276,7 @@ h6,
   .site-header .site-nav {
     width: 100%;
     float: left;
-    text-align: center;
+    text-align: right;
     margin-top: 0.666em;
     margin-bottom: 1.333em;
   }
@@ -285,7 +285,7 @@ h6,
 @media screen and (min-width: 48em) {
   .meta,
   .post-meta {
-    margin: 0;
+    margin: 5px 0px 0;
     padding: 0;
     font-size: 1.25rem;
   }

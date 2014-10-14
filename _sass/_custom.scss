@@ -1,125 +1,157 @@
 .list-style-none {
-  list-style: none;
+    list-style: none;
 }
-
-@media screen and (min-width: 48em) {
-  .float-right {
-    float: right;
-  }
-  .float-left {
+.home-list {
+    border-bottom: 1px dashed rgba(209, 209, 209, 1);
+    padding: 1px 0px 3px;
+}
+.home-list:nth-last-child(1) {
+    border: none !important;
+}
+li.icons-footer {
+    padding-left: 15px;
     float: left;
-  }
+    font-size: 1.3em;
 }
 
+.nav {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    margin-left: 3px;
+}
+
+ul.icons-footer {
+    text-align: center;
+}
+
+@media screen and (min-width: 360px) and (max-width: 48em) {
+    .site-nav {
+        position: absolute;
+        right: 20px;
+        top: 9px;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    .float-right {
+        float: right;
+    }
+    .float-left {
+        float: left;
+    }
+}
+@media screen and (min-width: 436px) {
+    .float-right-footer {
+        float: right;
+    }
+    .float-left-footer {
+        float: left;
+    }
+}
+@media screen and (max-width: 425px) {
+    .float-right-footer {
+        margin-top: 10px;
+    }
+    .float-left-footer {
+        font-size: .8em;
+        margin-top: -10px;
+    }
+}
 @media screen and (min-width: 38em) {
-  .games-gallery {
-    width: 47%;
-  }
-  li.games-gallery:nth-child(even) {
-    margin-left: 6%;
-  }
+    .games-gallery {
+        width: 47%;
+    }
+    li.games-gallery:nth-child(even) {
+        margin-left: 6%;
+    }
+}
+@media screen and (max-width: 37.9em) and (min-width: 380px) {
+
+    .game-description {
+        font-size: 1.3rem !important;
+    }
 }
 
-@media screen and (max-width: 37.9em) {
-  .games-gallery {
-    width: 100%;
-  }
-  .game-list-float-right {
-    float: right;
-  }
-  .game-list-float-left {
-    float: left;
-  }
-  
-  .game-description {
-    font-size: 1.3rem !important;
-  }
+
+@media screen and (min-width: 300px) and (max-width: 37.9em) {
+    .game-list-float-right {
+        float: right;
+    }
+    .game-list-float-left {
+        float: left;
+    }
 }
 
+@media screen and (max-width: 767px) {
+    .home-list {
+        margin-top: 7px;
+    }
+}
 canvas {
-    width:100%;
+    width: 100%;
 }
 img {
-  border-radius: 0.4em;
+    border-radius: 0.4em;
 }
-
 video {
-  border-radius: .4em ;
-  margin-bottom: .5em;
+    border-radius: .4em;
+    margin-bottom: .5em;
 }
-
-
 .games-gallery {
-  float: left;
-  margin-bottom: 2rem;
+    float: left;
+    margin-bottom: 2rem;
 }
-
 .description-margin {
     width: 96%;
     margin: 0 auto 0 !important;
 }
-
 ul.game-list {
-  padding-bottom: 230px;
-  margin-bottom: 0 !important;
+    padding-bottom: 230px;
+    margin-bottom: 0 !important;
 }
-
 .game-description {
-  color: gray;
-  font-family: "Lato","Helvetica Neue",Helvetica,sans-serif;
-  font-size: 1rem;
+    color: gray;
+    font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif;
 }
-
 .logo {
-  margin-left: -72px;
-  margin-top: -22px;
+    margin-left: -72px;
+    margin-top: -22px;
 }
-
 .no-border-radius {
     border-radius: 0px !important;
 }
-
 .padding-left-zero {
-  padding-left: 0;
-
+    padding-left: 0;
 }
 .link-homelist {
-  //font-weight: bold;
-  font-family: "Lato","Helvetica Neue",Helvetica,sans-serif;
-  font-size: 1.6rem;
+    //font-weight: bold;
+    font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1.6rem;
 }
-
 .mt2 {
-  margin-top: 0;
-
+    margin-top: 0;
 }
-
 .site-nav {
-  margin-top: 1.5rem;
-
+    margin-top: 1.5rem;
 }
-
 .blog-summary {
-  border       : 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
-  border-top   : 1px solid rgba(0, 0, 0, 0.07);
-  color        : #8a8a8a;
-  font-size    : 1.15rem;
-  font-style   : italic;
-  margin-bottom: 3rem;
-  padding      : 1rem 0;
-
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+    border-top: 1px solid rgba(0, 0, 0, 0.07);
+    color: #8a8a8a;
+    font-size: 1.15rem;
+    font-style: italic;
+    margin-bottom: 3rem;
+    padding: 1rem 0;
 }
-
 a {
-  color: rgba(204, 0, 187, 1);
+    color: rgb(190, 49, 179);
 }
-
 a:hover {
-  color: rgb(241, 52, 235);
+    color: rgb(255, 144, 251);
 }
-
 .highlight,
 .gist-syntax .highlight {
-  border-radius: 3px !important;
+    border-radius: 3px !important;
 }

@@ -11,7 +11,7 @@ If you are anything like me than you enjoy using well designed, aesthetically pl
 
 Atoms menus under Linux, however, are not pleasing and don't mesh well with Gnome, Cinnamon or the other non-Unity desktop environments.
 
-![Awful menus must die]({{site.baseurl}}/assets/atom_with_menu.png)
+![Awful menus must die]({{site.baseurl}}/assets/atom/with_menu.png)
 
 
 ###Rearranging the atoms
@@ -65,6 +65,6 @@ Ideally, it should be an option for Atom to hide or show the menu, just like pre
 
 I find that the end result is worth the minute you spend modifying the source.
 
-![Beauty incarnate]({{site.baseurl}}/assets/atom_without_menu.png)
+![Beauty incarnate]({{site.baseurl}}/assets/atom/without_menu.png)
 
 Bear in mind that you will need to do this again when Atom gets updated.

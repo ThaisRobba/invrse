@@ -8,7 +8,7 @@ comments:   true
 ---
 [Atom](https://atom.io/) is a free and open-source text-editor made by [Github](https://github.com/). It is highly modular, hackable and flexible - so if it doesn't fit your workflow out of the box, odds are that you can solve that by installing a few packages and changing a few configurations.
 
-![Basic Atom, after you start it]({{site.baseurl}}/assets/atom_basic.png)
+![Basic Atom, after you start it]({{site.baseurl}}/assets/atom/basic.png)
 
 
 ##The first experience is sublime
@@ -38,7 +38,7 @@ These extra packages are highly useful and greatly extend Atom's usability. Amon
 - Compiling tools
 
 Along many other functionalities - [everything you need]({{site.baseurl}}/atom-recommended-packages) to make Atom feel like *the* text editor.
-![Atoms package manager]({{site.baseurl}}/assets/atom_package.png)
+![Atoms package manager]({{site.baseurl}}/assets/atom/package.png)
 
 
 ##Splitting the atom
@@ -51,7 +51,7 @@ Don't like the scroll bar? Change it. Not happy with the cursor color? Change it
 
 It might take a bit longer to perfect the tool for your liking but after you do so, anything else will feel wrong.
 
-![Atom after I customized it to my liking]({{site.baseurl}}/assets/atom_custom.png)
+![Atom after I customized it to my liking]({{site.baseurl}}/assets/atom/custom.png)
 
 ##Collaborative & highly engaging
 
