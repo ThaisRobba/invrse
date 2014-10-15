@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      8 Brackets essential extensions
+title:      7 Brackets essential extensions
 date:       2014-10-14 20:00:00
 permalink:  brackets-essential-extensions
 categories: text editor
