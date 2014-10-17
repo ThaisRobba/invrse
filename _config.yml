@@ -1,8 +1,8 @@
 # Site settings
-title: invrse
+title: invrse - game development blog
 email: ottorobba@gmail.com
 author: Otto Robba
-description: "Not doing what is expected of me or: how I learned to stop worrying and love programming."
+description: "Educational blog on game design and development, including topics like programming, tools, workflow and techniques."
 baseurl: ""
 url: "http://www.invrse.co"
 google_analytics:
