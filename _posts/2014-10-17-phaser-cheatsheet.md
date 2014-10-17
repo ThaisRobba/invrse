@@ -7,7 +7,7 @@ categories: game framework, resource
 comments:   true
 ---
 
-Phaser - the HTML5 game framework that I've reviewed - is pretty easy to use. It gets even easier with a cheatsheet though.
+<a href="http://phaser.io" target="_blank">Phaser</a> - [the HTML5 game framework that I've reviewed](http://invrse.co/phaser-review) - is pretty easy to use. It gets even easier with a cheatsheet though.
 
 I'm linking each cheat directly to the documentation so you can see the related methods and the source if you need to.
 
