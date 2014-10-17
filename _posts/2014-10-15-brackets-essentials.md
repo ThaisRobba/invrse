@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      7 Brackets essential extensions
-date:       2014-10-14 20:00:00
+title:      8 Brackets essential extensions
+date:       2014-10-15 20:00:00
 permalink:  brackets-essential-extensions
 categories: text editor
 comments:   true
@@ -87,6 +87,15 @@ This package fixes that by reducing the opactiy for the non-selected window.
 In the extension manager search for:
 
     zen-pane
+    
+###8. Code Folding
+![Code folding]({{site.baseurl}}/assets/brackets/code_folding.png)
+
+Brackets doesn't have code folding by default - they plan to implement it but this extension should scratch the itch while we paciently wait.
+
+In the extension manager search for:
+
+    code-folding
     
 ###What about you?
 
