@@ -5,7 +5,7 @@ author: Otto Robba
 description: "Educational blog on game design and development, including topics like programming, tools, workflow and techniques."
 baseurl: ""
 url: "http://www.invrse.co"
-google_analytics:
+google_analytics: UA-55865997-1
 animated: false
 
 # Build settings
