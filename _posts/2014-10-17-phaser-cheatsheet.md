@@ -73,7 +73,7 @@ this.scale.setScreenSize(true);
 <small>Reference: <a href="http://www.html5gamedevs.com/topic/4247-where-to-put-global-var-in-the-basic-template/" target="_blank">http://www.html5gamedevs.com/topic/4247-where-to-put-global-var-in-the-basic-template/</a></small>
 
 {% highlight javascript %}
-//Declare it outside of of any functions
+//Declare it outside of any functions
 //This way they persist through state changes
 game.global = {
     mute: false,
@@ -121,8 +121,36 @@ function preload() {
 function create() {
     //image, sprite, audio and others are all methods of the factory
     game.add.image(width, height, 'key');
-    game.add.sprite(x, y, 'key', frame, group);
+    var player = game.add.sprite(x, y, 'key', frame, group);
 }
+{% endhighlight %}
+
+###Repositioning an objects anchor
+
+<small>Reference: <a href="https://github.com/photonstorm/phaser/wiki/Graphics" target="_blank">https://github.com/photonstorm/phaser/wiki/Graphics</a></small>
+
+{% highlight javascript %}
+//Objects have an anchor property that goes from 0 (top left) to 1 (bottom right)
+//It defaults to 0,0 but it can be changed easily
+image.anchor.x = 0.2;
+image.anchor.y = 1;
+
+//This sets it in the middle
+image.anchor.setTo(0.5,0.5);
+{% endhighlight %}
+
+###Scaling an object
+
+<small>Reference: <a href="https://github.com/photonstorm/phaser/wiki/Graphics" target="_blank">https://github.com/photonstorm/phaser/wiki/Graphics</a></small>
+
+{% highlight javascript %}
+//Objects have a scale property that defaults to 1
+
+//This flips the x scale, essentially mirroring
+image.scale.x = -1;
+
+//This doubles the size of the object
+image.scale.setTo(2,2);
 {% endhighlight %}
 
 ###Displaying an image
