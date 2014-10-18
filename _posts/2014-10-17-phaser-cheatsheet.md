@@ -113,6 +113,15 @@ function preload() {
 }
 {% endhighlight %}
 
+###Setting a background color
+
+<small>Reference: <a href="http://docs.phaser.io/Phaser.Stage.html" target="_blank">http://docs.phaser.io/Phaser.Stage.html</a></small>
+
+{% highlight javascript %}
+//Setting it to a nice, greyish blue
+game.stage.backgroundColor = '#6d94b5';
+{% endhighlight %}
+
 ###Adding game objects
 
 <small>Reference: <a href="http://docs.phaser.io/Phaser.GameObjectFactory.html" target="_blank">http://docs.phaser.io/Phaser.GameObjectFactory.html</a></small>
