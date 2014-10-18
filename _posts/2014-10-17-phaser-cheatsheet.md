@@ -145,8 +145,7 @@ image.anchor.setTo(0.5,0.5);
 
 {% highlight javascript %}
 //Objects have a scale property that defaults to 1
-
-//This flips the x scale, essentially mirroring
+//Negative values essentially mirror it on the affected axis
 image.scale.x = -1;
 
 //This doubles the size of the object
