@@ -122,6 +122,17 @@ function preload() {
 game.stage.backgroundColor = '#6d94b5';
 {% endhighlight %}
 
+
+###Generating random numbers
+
+<small>Reference: <a href="http://docs.phaser.io/Phaser.RandomDataGenerator.html" target="_blank">http://docs.phaser.io/Phaser.RandomDataGenerator.html</a></small>
+
+{% highlight javascript %}
+var num = game.rnd.integerInRange(120, 480);
+var int = game.rnd.integer();
+var frac = game.rnd.frac();
+{% endhighlight %}
+
 ###Adding game objects
 
 <small>Reference: <a href="http://docs.phaser.io/Phaser.GameObjectFactory.html" target="_blank">http://docs.phaser.io/Phaser.GameObjectFactory.html</a></small>
