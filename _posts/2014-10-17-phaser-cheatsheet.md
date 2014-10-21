@@ -129,8 +129,8 @@ game.stage.backgroundColor = '#6d94b5';
 
 {% highlight javascript %}
 var num = game.rnd.integerInRange(120, 480);
-var int = game.rnd.integer();
-var frac = game.rnd.frac();
+var intNum = game.rnd.integer();
+var fracNum = game.rnd.frac();
 {% endhighlight %}
 
 ###Adding game objects
