@@ -215,10 +215,10 @@ function create() {
 {% highlight javascript %}
 function create() {
     //Assign it so we can reference it later
-    var running = sprite.animations.add('name', [frames], frameRate, loop?);
+    var run = sprite.animations.add('name', [frames], frameRate, loop?);
 
     //Second parameter is the context, usually 'this'
-    running.onStart.add(listener, this);
+    run.onStart.add(listener, this);
 }
 
 function listener() {
@@ -235,7 +235,7 @@ function listener() {
 function create() {
     //Assigned for later use
     var label = game.add.text(x, y, "text", {style}, group);
-    label.text = "I'm changing the text inside the label";
+    label.text = "I'm changing the text inside the label var!";
 }
 {% endhighlight %}
 
@@ -273,9 +273,10 @@ function create() {
 
 {% highlight javascript %}
 //Three types of timers: looping, one time event, repeat.
-var looping = game.time.events.loop(delay, callback, context, callArguments);
-var once = game.time.events.add(delay, callback, context, callArguments);
-var repeat = game.time.events.repeat(delay, repeatCount, callback, context, callArguments);
+var looping = game.time.events.loop(delay, callback, context);
+var once = game.time.events.add(delay, callback, context);
+var repeat = game.time.events.repeat(delay, repeatCount, callback, context);
+//You can also pass one last argument with the callback arguments
 
 game.time.events.pause(loopingTimer);
 game.time.events.remove(once);
