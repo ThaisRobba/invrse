@@ -260,7 +260,7 @@ game.add.tween(player)
 {% highlight javascript %}
 function create() {
     //Assign it so we can reference it 
-    var music = game.add.music('key', volume, loop?);
+    var music = game.add.audio('key', volume, loop?);
     music.loop = true;
     music.play();
 }
