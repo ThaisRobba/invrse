@@ -203,8 +203,8 @@ function create() {
 
 {% highlight javascript %}
 function create() {
-    sprite.animations.add('name', [frames], frameRate, loop?);
-    sprite.animations.play('name', frameRate, loop?, killOnComplete);
+    sprite.animations.add('name', [frames], frameRate, loop);
+    sprite.animations.play('name', frameRate, loop, killOnComplete);
 }
 {% endhighlight %}
 
@@ -215,7 +215,7 @@ function create() {
 {% highlight javascript %}
 function create() {
     //Assign it so we can reference it later
-    var run = sprite.animations.add('name', [frames], frameRate, loop?);
+    var run = sprite.animations.add('name', [frames], frameRate, loop);
 
     //Second parameter is the context, usually 'this'
     run.onStart.add(listener, this);
@@ -260,7 +260,7 @@ game.add.tween(player)
 {% highlight javascript %}
 function create() {
     //Assign it so we can reference it 
-    var music = game.add.audio('key', volume, loop?);
+    var music = game.add.audio('key', volume, loop);
     music.loop = true;
     music.play();
 }
