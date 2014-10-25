@@ -140,7 +140,7 @@ var fracNum = game.rnd.frac();
 {% highlight javascript %}
 function create() {
     //image, sprite, audio and others are all methods of the factory
-    game.add.image(width, height, 'key');
+    game.add.image(x, y, 'key');
     var player = game.add.sprite(x, y, 'key', frame, group);
 }
 {% endhighlight %}
@@ -178,7 +178,7 @@ image.scale.setTo(2,2);
 
 {% highlight javascript %}
 function create() {
-    game.add.image(width, height, 'key');
+    game.add.image(x, y, 'key');
 }
 {% endhighlight %}
 
@@ -417,6 +417,7 @@ emitter.setAlpha(min, max, rate, easing, yoyo);
 //To use gravity on the emitter, start the physics system
 game.physics.startSystem(Phaser.Physics.ARCADE);
 emitter.gravity = 200;
+emitter.start();
 {% endhighlight %}
 
 ###Contribute!
