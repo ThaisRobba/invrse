@@ -27,7 +27,7 @@ They make tedious parts of certain languages and frameworks much more bearable -
 <a href="https://github.com/zaggino/brackets-snippets" target="_blank">Zaggino updated it a bit</a> and I even contributed better JavaScript definitions to it but this extension has quite a few downsides:
 
 - Can't use snippets on a non-empty line
-- **Tab** key doesn't properly work
+- **Tab** key doesn't work properly
 - Shortcut is awkward (**Ctrl+Alt+Space**)
 - Hard to add new snippets
 - Doesn't work well with multiple input
