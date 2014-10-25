@@ -19,7 +19,7 @@ They make tedious parts of certain languages and frameworks much more bearable -
 
 ###1st Option
 
-<a href="https://github.com/jrowny/brackets-snippets" target="_blank">Jrowny</a> made a nice snippets completion system for Brackets - it is not very conventional but allows nice things, like inputting
+<a href="https://github.com/jrowny/brackets-snippets" target="_blank">Jrowny</a> made a nice snippets completion system for Brackets - it is not very conventional but allows for a few cool things, like an inline completion that matches Brackets' quick edit visuals.
 
 ![Brackets Snippets]({{site.baseurl}}/assets/brackets/brackets_snippets.gif)
 
@@ -53,6 +53,7 @@ Using Emmet for anything other than HTML/CSS, however, is not as common practice
 - Can expand one snippet into multiple blocks
 
 In order to install Emmet in Brackets, just search for it in the extension manager.
+I highly recommend reading the <a href="http://docs.emmet.io/" target="_blank">documentation</a> on the official site to better understand what Emmet can really do.
 
 ###Free as in Freedom
 
