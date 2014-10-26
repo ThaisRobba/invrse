@@ -3,7 +3,8 @@ layout:     post
 title:      8 essential extensions for Brackets
 date:       2014-10-15 20:00:00
 permalink:  brackets-essential-extensions
-categories: text editor
+categories: 
+    - text editor
 comments:   true
 ---
 

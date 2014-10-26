@@ -3,7 +3,8 @@ layout: post
 title: Hide Atoms menu under Linux or Windows
 date: 2014-10-01 10:00
 permalink: hide-atoms-menu
-categories: text editor
+categories: 
+    - text editor
 comments: true
 ---
 

@@ -3,7 +3,9 @@ layout:     post
 title:      Brackets review - coding the web
 date:       2014-10-08 12:00:00
 permalink:  brackets-editor-review
-categories: review, text editor
+categories: 
+    - review
+    - text editor
 comments:   true
 ---
 

@@ -1,0 +1,39 @@
+ <ul class="padding-left-zero games-gallery ">
+<span>Reviews:</span>
+{% for category in site.categories %}
+    {% if category[0] == 'review' %}
+        {% for catposts in category %}
+            {% if forloop.first %}
+                {% continue %}
+            {% endif %}
+            {% for catpost in catposts %}
+
+                <li class="list-style-none home-list"><a class="link-homelist" href="{{ catpost.url }}">{{ catpost.title }}</a>
+            <p class="post-meta float-right">{{ catpost.date | date: "%b %-d, %Y" }}</p>
+        </li>
+
+            {% endfor %}
+        {% endfor %}
+    {% endif %}
+{% endfor %}
+    </ul>
+
+    <ul class="padding-left-zero games-gallery ">
+<span>Text Editor:</span>
+{% for category in site.categories %}
+    {% if category[0] == 'text editor' %}
+        {% for catposts in category %}
+            {% if forloop.first %}
+                {% continue %}
+            {% endif %}
+            {% for catpost in catposts %}
+
+                <li class="list-style-none home-list"><a class="link-homelist" href="{{ catpost.url }}">{{ catpost.title }}</a>
+            <p class="post-meta float-right">{{ catpost.date | date: "%b %-d, %Y" }}</p>
+        </li>
+
+            {% endfor %}
+        {% endfor %}
+    {% endif %}
+{% endfor %}
+    </ul>

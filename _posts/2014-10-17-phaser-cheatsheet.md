@@ -3,7 +3,9 @@ layout:     post
 title:      Phaser Cheatsheet
 date:       2014-10-17 20:00:00
 permalink:  phaser-cheatsheet
-categories: game framework, resource
+categories:
+    - game framework
+    - resource
 comments:   true
 ---
 

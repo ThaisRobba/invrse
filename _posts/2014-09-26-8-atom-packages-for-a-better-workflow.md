@@ -3,7 +3,8 @@ layout:     post
 title:      8 helpful Atom packages
 date:       2014-09-26 20:00:00
 permalink:  atom-recommended-packages
-categories: text editor
+categories: 
+    - text editor
 comments:   true
 ---
 
