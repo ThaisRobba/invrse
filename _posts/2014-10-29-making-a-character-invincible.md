@@ -19,7 +19,7 @@ Being invincible means that, within a given context, someone or something can't 
 
 Think of Mario Kart's star item, with which your character cannot be harmed by shells and other items. While you cannot be *destroyed* by others you can be *defeated* as you can still fall, waste time and come in last - therefore the challenge is never removed, the player is only given a temporary bonus.
 
-![Man of steel]({{site.baseurl}}/assets/phaser/borderlands.jpg)
+![borderlands 2 bee shield immunity]({{site.baseurl}}/assets/phaser/borderlands.jpg)
 
 In game design, the terms invulnerability and invencibility are often used as synonyms but some games, such as Final Fantasy or Borderlands, allow you to be partially vulnerable (being resistant to certain types of damage).
 
@@ -76,7 +76,7 @@ toggleInvincible: function(entity) {
     entity.invincible = !entity.invincible;
 }
 {% endhighlight %}
-
+we can now use this with any entity
 As you can see, here we create the toggleInvincible function so that it can be used with any number of entities - including the player, needed be. This approach is far more flexible (and cleaner!).
 
 ###Did I fire 5 timers or 6?
