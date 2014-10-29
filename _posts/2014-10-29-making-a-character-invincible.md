@@ -76,8 +76,8 @@ toggleInvincible: function(entity) {
     entity.invincible = !entity.invincible;
 }
 {% endhighlight %}
-we can now use this with any entity
-As you can see, here we create the toggleInvincible function so that it can be used with any number of entities - including the player, needed be. This approach is far more flexible (and cleaner!).
+
+As you can see, this approach is far more flexible (and cleaner!).
 
 ###Did I fire 5 timers or 6?
 
