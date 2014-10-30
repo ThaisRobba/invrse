@@ -49,7 +49,7 @@ onHit: function(damage) {
 
 ###Who's the boss?
 
-Some games have this mechanic in more than one place though - a boss that has multiple weak points, little creatures that are invulnerable after taking fire damage, the player being invulnerable after any damage... Our code from before could be adapted to this:
+Some games have this mechanic in more than one place though - a boss that has multiple weak points that can only be hit once every two seconds, little creatures that are invulnerable after taking fire damage, the player being invulnerable after any damage... Our code from before could be adapted to this:
 
 {% highlight javascript %}
 create: function() {
