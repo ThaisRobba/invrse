@@ -10,8 +10,6 @@ comments:   true
 
 - Post mortem Lava-run
 - How to:
-    - Create an invulnerable character
-    - make the enemy invulnerable
     - use tilemaps with Phaser
     - have a collision tilemap and a graphical one
     - Concatenate and minify your game

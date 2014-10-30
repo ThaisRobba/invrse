@@ -5,4 +5,4 @@ permalink: /games/
 comments: true
 ---
 
-<small>*Ordered from newest to oldest.*</small>
+Home-made, quality entertainment! Check my free to play games below.

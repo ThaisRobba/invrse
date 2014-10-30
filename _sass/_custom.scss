@@ -13,26 +13,22 @@ li.icons-footer {
     float: left;
     font-size: 1.3em;
 }
-
 .nav {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 1em;
     font-weight: 600;
     margin-left: 3px;
 }
-
 ul.icons-footer {
     text-align: center;
 }
-
-@media screen and (min-width: 360px) and (max-width: 48em) {
+@media screen and (min-width: 450px) and (max-width: 48em) {
     .site-nav {
         position: absolute;
         right: 20px;
         top: 9px;
     }
 }
-
 @media screen and (min-width: 640px) {
     .float-right {
         float: right;
@@ -62,19 +58,19 @@ ul.icons-footer {
     .games-gallery {
         width: 47%;
     }
+    .game-description {
+        font-size: .9rem !important;
+    }
     li.games-gallery:nth-child(even) {
         margin-left: 6%;
     }
 }
 @media screen and (max-width: 37.9em) and (min-width: 380px) {
-
     .game-description {
         font-size: 1.3rem !important;
     }
 }
-
-
-@media screen and (min-width: 300px) and (max-width: 37.9em) {
+@media screen and (min-width: 520px) and (max-width: 38em) {
     .game-list-float-right {
         float: right;
     }
@@ -82,7 +78,6 @@ ul.icons-footer {
         float: left;
     }
 }
-
 @media screen and (max-width: 767px) {
     .home-list {
         margin-top: 7px;
@@ -154,4 +149,56 @@ a:hover {
 .highlight,
 .gist-syntax .highlight {
     border-radius: 3px !important;
+}
+.icon-box {
+    background-color: rgba(201, 220, 222, 1);
+    border-radius: 5px;
+    padding: 1.4em;
+    margin-bottom: 24px;
+    text-align: center;
+}
+.icon-box-last {
+    margin-right: 0px !important;
+}
+.hire-icon {
+    margin-bottom: 8px;
+}
+.full-width {
+    width: 100%;
+    display: inline-block;
+}
+@media screen and (min-width: 860px) {
+    .icon-box {
+        width: 21.2%;
+        float: left;
+        margin-right: 5%;
+    }
+    .form-float-left {
+        float: left;
+    }
+    .form-float-right {
+        float: right;
+        width: 65%;
+    }
+}
+.form-control {
+    font-size: 1.1rem;
+    padding: 10px;
+    border: medium none;
+    background-color: #F0F0F0;
+    border-radius: 5px;
+    margin-bottom: 12px;
+}
+.textarea {
+    width: 100%;
+    height: 150px;
+}
+.large-button {
+    width: 100%;
+    padding: 8px;
+    color: #FFF;
+    background-color: #7F9CAA;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
 }
