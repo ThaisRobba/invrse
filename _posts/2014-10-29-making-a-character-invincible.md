@@ -30,7 +30,7 @@ A common type of invincibility comes in the form of preventing further damage to
 {% highlight javascript %}
 create: function() {
     player.invincible = false;
-}
+},
 
 onHit: function(damage) {
     if (!player.invincible) { //We only damage the player if not invincible
@@ -54,7 +54,7 @@ Some games have this mechanic in more than one place though - a boss that has mu
 {% highlight javascript %}
 create: function() {
     boss.invincible = false; //same idea as before
-}
+},
 
 //We refactor onHit so that we can pass a specific entity
 //And pass for how long invulnerability should last
@@ -70,7 +70,7 @@ onHit: function(entity, damage, invulTime) {
       //Which in turn is passed to the toggleInvincible function
       game.time.events.add(invulTime, this.toggleInvincible, this, entity); 
     }
-}
+},
 
 toggleInvincible: function(entity) {
     entity.invincible = !entity.invincible;
