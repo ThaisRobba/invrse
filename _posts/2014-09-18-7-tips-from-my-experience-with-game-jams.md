@@ -5,6 +5,7 @@ date:       2014-09-18 20:00:00
 permalink:  surviving-a-game-jam
 categories: gamejam
 comments:   true
+
 ---
 
 Participating in game jams can be quite daunting (and exhausting). There is a lot to do and time is *a lot* shorter than it seems.

@@ -9,7 +9,7 @@ categories:
     - sound effects
     - gamejam
 comments:   true
-lang:       en
+
 ---
 
 Ever tried to play Mario or [insert your favorite game] with the sounds muted? It just isn't the same, is it?
@@ -52,4 +52,3 @@ Now that you are all excited, I highly recommend getting a good microphone and i
 With it you are able to record the sound inputted into the microphone and, through filters, fine tune it until you reach what you want. A simple example is extending for how long a sound happens (and thus changing how we perceive it) or adding echo to a voice, making it seem otherwordly.
 
 Whatever you do, try to keep it simple.
-

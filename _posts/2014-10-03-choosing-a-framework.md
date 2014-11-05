@@ -6,6 +6,7 @@ permalink: how-to-choose-a-game-framework
 categories: 
     - game framework
 comments: true
+
 ---
 
 Choosing the *best* game framework for a task can be specially hard given that there are so many options out there and so many variables must be taken into account before any final decision is made.

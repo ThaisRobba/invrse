@@ -7,6 +7,7 @@ categories:
     - phaser
     - tutorial
 comments:   true
+
 ---
 
 Earlier this month I helped answer a user back on the HTML5 GameDev forums <a href="http://www.html5gamedevs.com/topic/9970-invincible-for-a-while-when-you-hit/#entry58847" target="_blank">on how to work with invincibility</a>. I thought it would be an interesting subject to expand upon and thus, this tiny tutorial was born.

@@ -6,6 +6,7 @@ permalink:  atom-recommended-packages
 categories: 
     - text editor
 comments:   true
+
 ---
 
 While [Atom is a great editor]({{site.baseurl}}/atom-editor-review/), the experience can be greatly improved by using a few of the many packages available - what follows is the list of the ones that I personally use and recommend.

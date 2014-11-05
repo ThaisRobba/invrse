@@ -7,6 +7,7 @@ categories:
     - review
     - text editor
 comments:   true
+
 ---
 
 <a href="http://brackets.io" target="_blank">Brackets</a> is a powerful, free and open-source text editor, aimed at web and front-end developers, created by <a href="http://www.adobe.com" target="_blank">Adobe</a> for "coding the web". It is extensible with a nice repository of plugins and has a powerful Javascript hinting engine - but how well does it really fare for game development?

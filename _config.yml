@@ -16,4 +16,3 @@ sass:
   compressed: true
 
 gems: [jekyll-sitemap]
-

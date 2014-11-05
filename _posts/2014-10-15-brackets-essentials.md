@@ -6,6 +6,7 @@ permalink:  brackets-essential-extensions
 categories: 
     - text editor
 comments:   true
+
 ---
 
 Sorting through Brackets' extensions can be a bit of a pain - there are just so many and the native system for searching is very primitive. After viewing different plugins for hours, here is my list of essentials:

@@ -5,7 +5,7 @@ permalink: /games/lava-run/
 comments: true
 ---
 
-Avoid rocks and get the powerups, gtting as far as you can with the little robot in this infinite runner, action game!
+Avoid rocks and get the powerups, getting as far as you can with the little robot in this infinite runner, action game!
 
 <small>Controls: Use touch or the mouse to move the little robot.</small>
 

@@ -67,7 +67,7 @@ ul.icons-footer {
 }
 @media screen and (max-width: 37.9em) and (min-width: 380px) {
     .game-description {
-        font-size: 1.3rem !important;
+        font-size: 1.2rem !important;
     }
 }
 @media screen and (min-width: 520px) and (max-width: 38em) {
@@ -201,4 +201,87 @@ a:hover {
     border: none;
     border-radius: 5px;
     font-size: 1.2rem;
+}
+hr {
+    border-style: dashed;
+    border-bottom: none;
+    border-color: rgb(165, 194, 196);
+}
+#progressbar {
+    background-color: rgba(244, 244, 244, 0.69);
+    border-radius: 3px;
+    float: right;
+    width: 80%;
+    margin-left: 2%;
+}
+#progressbar > div {
+    height: 20px;
+    border-radius: 2px;
+}
+
+#progressbar > div.quarter {
+    width: 25%;
+        background-color: #cb55a7;
+
+}
+#progressbar > div.fifty {
+    width: 50%;
+        background-color: #9555cb;
+
+}
+#progressbar > div.three-quarters {
+    width: 75%;
+        background-color: #5563cb;
+
+}
+#progressbar > div.ninety {
+    width: 90%;
+        background-color: #55c2cb;
+
+}
+
+#progressbar > div.full {
+    width: 100%;
+        background-color: #55cb7e;
+
+}
+.proficiency {
+    font-size: 0.8rem;
+    text-align: center;
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.64);
+    line-height: 20px;
+}
+.progress-span {
+    float: left;
+    width: 18%;
+    margin-top: -4px;
+    text-align: right;
+}
+
+@media screen and (max-width: 680px) {
+    .progress-span {
+    font-size: 1rem;
+}
+}
+
+@media screen and (max-width: 380px) {
+    .progress-span {
+    width: 33%;
+}
+    #progressbar {
+        width: 64%;
+    }
+
+    .proficiency {
+        color: rgba(0, 0, 0, 0);
+    }
+}
+.bar {
+    margin-bottom: 6px;
+    display: inline-block;
+    width: 100%;
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: right;
 }

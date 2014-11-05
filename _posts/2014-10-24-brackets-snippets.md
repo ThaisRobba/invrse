@@ -7,6 +7,7 @@ categories:
 - resource
 - text editor
 comments:   true
+
 ---
 
 One of the major features missing in <a href="http://brackets.io" target="_blank">Adobe's Brackets</a> is a snippet completion system. For many (myself included), they are a must have on any code editor - once you get used to them, it is hard to go back.

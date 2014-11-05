@@ -7,6 +7,7 @@ categories:
     - review
     - text editor
 comments:   true
+
 ---
 [Atom](https://atom.io/) is a free and open-source text-editor made by [Github](https://github.com/). It is highly modular, hackable and flexible - so if it doesn't fit your workflow out of the box, odds are that you can solve that by installing a few packages and changing a few configurations.
 

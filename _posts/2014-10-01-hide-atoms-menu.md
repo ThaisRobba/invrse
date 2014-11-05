@@ -6,6 +6,7 @@ permalink: hide-atoms-menu
 categories: 
     - text editor
 comments: true
+
 ---
 
 If you are anything like me than you enjoy using well designed, aesthetically pleasing tools. Then again, I get a fuzzy feeling when the software that I use matches my system and looks deeply integrated - I'm weird like that.
