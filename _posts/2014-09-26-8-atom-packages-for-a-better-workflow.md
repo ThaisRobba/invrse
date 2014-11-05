@@ -101,4 +101,4 @@ To install it, copy the code below and paste it in the command line:
     
 ##That is it folks!
 
-For now, these are my recommendations. What about you? Do you have a favotire add-on that you just can't live without?
+For now, these are my recommendations. What about you? Do you have a favorite add-on that you just can't live without?
