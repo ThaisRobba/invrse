@@ -9,7 +9,6 @@ categories:
     - sound effects
     - gamejam
 comments:   true
-
 ---
 
 Ever tried to play Mario or [insert your favorite game] with the sounds muted? It just isn't the same, is it?
