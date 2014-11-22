@@ -285,3 +285,37 @@ hr {
     font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
     text-align: right;
 }
+
+.white {
+    color: white;
+}
+
+.twitter-button {
+    background-color: #3cf;
+    width: 1.5em;
+    height: 1.5em;
+    padding: 6px 8px 2px;
+    border-radius: 2px;
+}
+.facebook-button {
+    background-color: #3b5998;
+    width: 1.5em;
+    height: 1.5em;
+    padding: 6px 12px 2px;
+    border-radius: 2px;
+}
+.google-plus-button {
+    background-color: #D34836;
+    width: 1.5em;
+    height: 1.5em;
+    padding: 6px 8px 2px;
+    border-radius: 2px;
+}
+
+#social {
+    margin-bottom: 1.5em;
+}
+
+h5.share-post {
+    margin-bottom: 1em;
+}
