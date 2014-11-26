@@ -5,6 +5,8 @@ date:       2014-09-26 20:00:00
 permalink:  atom-recommended-packages
 categories: 
     - text editor
+    - tools
+    - resource
 comments:   true
 
 ---

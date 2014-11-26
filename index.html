@@ -1,16 +1,7 @@
 ---
 layout: default
 ---
-<div class="blog-summary">
-    <span>Through my words I've left everything familiar behind, now only I and the machine remain.</span>
-</div>
+{% include latest_posts.html %}
 
-<div class="home">
-    <ul class="padding-left-zero">
-        {% for post in site.posts %}
-            <li class="list-style-none home-list"><a class="link-homelist" href="{{ post.url }}">{{ post.title }}</a>
-                <p class="post-meta float-right">{{ post.date | date: "%b %-d, %Y" }}</p>
-            </li>
-        {% endfor %}
-    </ul>
-</div>
+
+{% include categories.html %}

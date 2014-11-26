@@ -87,6 +87,10 @@ canvas {
     width: 100%;
 }
 img {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
     border-radius: 0.4em;
 }
 video {
@@ -120,9 +124,9 @@ ul.game-list {
     padding-left: 0;
 }
 .link-homelist {
-    //font-weight: bold;
+    font-weight: 400;
     font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif;
-    font-size: 1.6rem;
+    font-size: 1rem;
 }
 .mt2 {
     margin-top: 0;
@@ -218,32 +222,25 @@ hr {
     height: 20px;
     border-radius: 2px;
 }
-
 #progressbar > div.quarter {
     width: 25%;
-        background-color: #cb55a7;
-
+    background-color: #cb55a7;
 }
 #progressbar > div.fifty {
     width: 50%;
-        background-color: #9555cb;
-
+    background-color: #9555cb;
 }
 #progressbar > div.three-quarters {
     width: 75%;
-        background-color: #5563cb;
-
+    background-color: #5563cb;
 }
 #progressbar > div.ninety {
     width: 90%;
-        background-color: #55c2cb;
-
+    background-color: #55c2cb;
 }
-
 #progressbar > div.full {
     width: 100%;
-        background-color: #55cb7e;
-
+    background-color: #55cb7e;
 }
 .proficiency {
     font-size: 0.8rem;
@@ -259,21 +256,18 @@ hr {
     margin-top: -4px;
     text-align: right;
 }
-
 @media screen and (max-width: 680px) {
     .progress-span {
-    font-size: 1rem;
+        font-size: 1rem;
+    }
 }
-}
-
 @media screen and (max-width: 380px) {
     .progress-span {
-    width: 33%;
-}
+        width: 33%;
+    }
     #progressbar {
         width: 64%;
     }
-
     .proficiency {
         color: rgba(0, 0, 0, 0);
     }
@@ -285,11 +279,9 @@ hr {
     font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
     text-align: right;
 }
-
 .white {
     color: white;
 }
-
 .twitter-button {
     background-color: #3cf;
     width: 1.5em;
@@ -311,11 +303,103 @@ hr {
     padding: 6px 8px 2px;
     border-radius: 2px;
 }
-
 #social {
     margin-bottom: 1.5em;
 }
-
 h5.share-post {
     margin-bottom: 1em;
+}
+.one-half-last {
+    width: 46%;
+    padding: 0;
+    float: left;
+}
+.one-half {
+    width: 46%;
+    padding: 0;
+    margin-right: 8%;
+    float: left;
+}
+.featured-box {
+    width: 31%;
+    background-color: #F9F9F9;
+    box-shadow: 1px 2px 4px rgba(200, 200, 200, 1);
+    float: left;
+    margin-right: 3.5%;
+}
+.featured-box:nth-child(3) {
+    margin-right: 0px !important;
+    margin-bottom: 2em;
+}
+.featured-box-p {
+    padding: 20px;
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+    height: 120px;
+    position: relative;
+}
+.square {
+    width: 100%;
+    border-radius: 0px !important;
+}
+.callout {
+    clear: both;
+    width: 100%;
+    display: inline-block;
+}
+.new-content {
+    color: #91a9b4;
+    margin: 0;
+}
+.vertical-align {
+    position: absolute;
+    top: 50%;
+    margin-top: -2em;
+    padding-right: 20px;
+}
+@media screen and (min-width: 767px) {
+    a.featured-link {
+        font-size: 1.4rem;
+        font-weight: 400;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 766px) {
+    a.featured-link {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+}
+@media screen and (max-width: 599px) {
+    .post-meta {
+        padding: 0px;
+        color: rgba(0, 0, 0, 0.46);
+        font-weight: 400;
+        font-size: 0.8rem;
+    }
+}
+@media screen and (max-width: 499px) {
+    a.featured-link {
+        font-size: 2rem;
+        font-weight: 400;
+    }
+    .featured-box {
+        width: 100%;
+        margin-bottom: 2em;
+    }
+    .one-half-last {
+        width: 100%;
+        padding: 0;
+        float: none;
+    }
+    .one-half {
+        width: 100%;
+        padding: 0;
+        margin-right: 0;
+        float: none;
+    }
+}
+
+iframe {
+    margin-bottom: 1.5em;
 }

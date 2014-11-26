@@ -1,0 +1,19 @@
+<div class="callout">
+<!--    <h5 class="float-left">Latest Posts:</h5> -->
+    <h5 class="float-left new-content">New content every Wednesday!</h5>
+</div>
+
+<div class="home">
+    <ul class="padding-left-zero">
+
+{% for post in site.posts limit:3 %}
+	  <li class="list-style-none featured-box">
+            <a class="featured-link" href="{{ post.url }}"><img class="square" src="{{site.baseurl}}/assets/featured/{{post.image}}.png"></a>
+            <div class="featured-box-p">
+                <p class="post-meta center">{{ post.date | date: "%b %-d, %Y" }}</p>
+                <div class="vertical-align center"><a class="featured-link" href="{{ post.url }}">{{ post.title }}</a></div>
+            </div>
+        </li>
+{% endfor %}
+ </ul>
+</div>

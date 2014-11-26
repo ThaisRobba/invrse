@@ -4,8 +4,8 @@ title:      Brackets and Snippets
 date:       2014-10-24 20:00:00
 permalink:  brackets-snippets
 categories:
-- resource
-- text editor
+    - resource
+    - text editor
 comments:   true
 
 ---

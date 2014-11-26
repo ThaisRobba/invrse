@@ -1,0 +1,9 @@
+<div class="home">
+    <ul class="padding-left-zero">
+        {% for post in site.posts limit:3%}
+            <li class="list-style-none home-list"><a class="link-homelist" href="{{ post.url }}">{{ post.title }}</a>
+                <p class="post-meta float-right">{{ post.date | date: "%b %-d, %Y" }}</p>
+            </li>
+        {% endfor %}
+    </ul>
+</div>

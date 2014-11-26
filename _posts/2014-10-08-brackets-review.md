@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Brackets review - coding the web
+title:      Brackets - coding the web
 date:       2014-10-08 12:00:00
 permalink:  brackets-editor-review
 categories: 

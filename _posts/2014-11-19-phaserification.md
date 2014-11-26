@@ -6,7 +6,9 @@ permalink:  build-phaser-with-browserify
 categories: 
     - tutorial
     - programming
+    - resource
 comments:   true
+image: phaserification
 ---
 
 Doing bigger projects using JavaScript can be troublesome - there is no native interface (yet) to require dependencies and resolving them involves manually adding and sorting through an html file. Being a script language, it also does not offer a native way of compiling multiple files into a single one.

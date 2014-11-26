@@ -1,39 +1,38 @@
- <ul class="padding-left-zero games-gallery ">
-<span>Reviews:</span>
-{% for category in site.categories %}
-    {% if category[0] == 'review' %}
-        {% for catposts in category %}
-            {% if forloop.first %}
-                {% continue %}
-            {% endif %}
-            {% for catpost in catposts %}
+<ul class="one-half">
+    <h5>DevLife</h5>
+    {% for category in site.categories %} {% if category[0] == 'devlife' %} {% for catposts in category %} {% if forloop.first %} {% continue %} {% endif %} {% for catpost in catposts %}
+    <li class="list-style-none home-list">
+        <a class="link-homelist" href="{{ catpost.url }}">{{ catpost.title }}</a>
+    </li>
+    {% endfor %} {% endfor %} {% endif %} {% endfor %}
+</ul>
 
-                <li class="list-style-none home-list"><a class="link-homelist" href="{{ catpost.url }}">{{ catpost.title }}</a>
-            <p class="post-meta float-right">{{ catpost.date | date: "%b %-d, %Y" }}</p>
-        </li>
+<ul class="one-half-last">
+    <h5>Reviews</h5>
+    {% for category in site.categories %} {% if category[0] == 'review' %} {% for catposts in category %} {% if forloop.first %} {% continue %} {% endif %} {% for catpost in catposts %}
 
-            {% endfor %}
-        {% endfor %}
-    {% endif %}
-{% endfor %}
-    </ul>
+    <li class="list-style-none home-list">
+        <a class="link-homelist" href="{{ catpost.url }}">{{ catpost.title }}</a>
+    </li>
+    {% endfor %} {% endfor %} {% endif %} {% endfor %}
+</ul>
 
-    <ul class="padding-left-zero games-gallery ">
-<span>Text Editor:</span>
-{% for category in site.categories %}
-    {% if category[0] == 'text editor' %}
-        {% for catposts in category %}
-            {% if forloop.first %}
-                {% continue %}
-            {% endif %}
-            {% for catpost in catposts %}
+<ul class="one-half">
+    <h5>Resources</h5>
+    {% for category in site.categories %} {% if category[0] == 'resource'%} {% for catposts in category %} {% if forloop.first %} {% continue %} {% endif %} {% for catpost in catposts %}
 
-                <li class="list-style-none home-list"><a class="link-homelist" href="{{ catpost.url }}">{{ catpost.title }}</a>
-            <p class="post-meta float-right">{{ catpost.date | date: "%b %-d, %Y" }}</p>
-        </li>
+    <li class="list-style-none home-list">
+        <a class="link-homelist" href="{{ catpost.url }}">{{ catpost.title }}</a>
+    </li>
+    {% endfor %} {% endfor %} {% endif %} {% endfor %}
+</ul>
 
-            {% endfor %}
-        {% endfor %}
-    {% endif %}
-{% endfor %}
-    </ul>
+<ul class="one-half-last">
+    <h5>Tutorials</h5>
+    {% for category in site.categories %} {% if category[0] == 'tutorial' %} {% for catposts in category %} {% if forloop.first %} {% continue %} {% endif %} {% for catpost in catposts %}
+
+    <li class="list-style-none home-list">
+        <a class="link-homelist" href="{{ catpost.url }}">{{ catpost.title }}</a>
+    </li>
+    {% endfor %} {% endfor %} {% endif %} {% endfor %}
+</ul>

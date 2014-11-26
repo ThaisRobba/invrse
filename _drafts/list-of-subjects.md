@@ -3,7 +3,7 @@ layout:     post
 title:      TITLE
 date:       2014-MM-DD 12:00:00
 permalink:  pretty-link
-categories: 
+categories:
     - category
 comments:   true
 ---
@@ -14,7 +14,7 @@ comments:   true
     - have a collision tilemap and a graphical one
     - Concatenate and minify your game
     - Optmize your game (tinypng)
-    
+
 - Selling your html5 games
 - Exploring game mechanics:
     - The art of camera movement

@@ -5,6 +5,7 @@ date: 2014-10-03 10:00
 permalink: how-to-choose-a-game-framework
 categories: 
     - game framework
+    - devlife
 comments: true
 
 ---

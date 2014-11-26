@@ -179,8 +179,9 @@
 }
 
 .post-meta {
-    font-size: $small-font-size;
-    color: $grey-color;
+    padding: 0px;
+color: rgba(0, 0, 0, 0.46);
+font-weight: 400;
 }
 
 .post-link {

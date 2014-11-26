@@ -3,7 +3,9 @@ layout:     post
 title:      7 tips from my experience with game jams
 date:       2014-09-18 20:00:00
 permalink:  surviving-a-game-jam
-categories: gamejam
+categories: 
+- gamejam
+- devlife
 comments:   true
 
 ---
