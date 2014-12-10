@@ -30,7 +30,7 @@ Which you can then import in other files:
 
 {%highlight javascript%}
 //main.js
-var square = require(./square.js);
+var square = require('./square.js');
 
 console.log(square(4)); //should output 16
 {%endhighlight%}
@@ -52,8 +52,8 @@ exports.double = function(num) {
 Which we can require like so:
 {%highlight javascript%}
 //main.js
-var square = require(./math.js).square;
-var double = require(./math.js).double;
+var square = require('./math.js').square;
+var double = require('./math.js').double;
 
 console.log(square(4)); //should output 16
 console.log(double(4)); //should output 8
@@ -160,4 +160,4 @@ A window of your default browser should now open with your game running. Success
 
 I highly recommend reading more about <a href="https://github.com/chrisdickinson/beefy" target="_blank">Beefy</a> and <a href="https://github.com/substack/browserify-handbook" target="_blank">Browserify</a> so that you can adjust them to your workflow. 
 
-I made <a href="https://github.com/OttoRobba/browserify-phaser" target="_blank">a simple template</a> that you can <a href="https://github.com/OttoRobba/browserify-phaser/archive/master.zip" target="_blank">download here</a>. It is mostly empty and you need to have Browserify and Beefy installed but should be really, really easy. Feel free to modify the template and show me the changes you've made!
+I made <a href="https://github.com/OttoRobba/browserify-phaser" target="_blank">a simple template</a> that you can <a href="https://github.com/OttoRobba/browserify-phaser/archive/master.zip" target="_blank">download here</a>. It should be really, really easy for you to get started with it. Feel free to modify the template and show me the changes you've made!
