@@ -6,7 +6,6 @@ permalink:  create-menu-screen-in-phaser
 categories: 
     - tutorial
     - programming
-    - resource
     - phaser
 comments:   true
 image: phaser_menu
