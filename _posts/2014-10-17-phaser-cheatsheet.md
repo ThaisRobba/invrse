@@ -6,6 +6,7 @@ permalink:  phaser-cheatsheet
 categories:
     - game framework
     - resource
+    - phaser
 comments:   true
 
 ---

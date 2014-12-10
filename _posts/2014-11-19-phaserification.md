@@ -7,6 +7,7 @@ categories:
     - tutorial
     - programming
     - resource
+    - phaser
 comments:   true
 image: phaserification
 ---

@@ -6,6 +6,7 @@ permalink:  phaser-review
 categories: 
     - review
     - game framework
+    - phaser
 comments:   true
 
 ---
