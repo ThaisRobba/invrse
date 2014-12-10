@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Work in the moment
-date:       2014-12-02 20:00:00
+date:       2014-12-03 20:00:00
 permalink:  in-the-moment
 categories:
     - devlife
