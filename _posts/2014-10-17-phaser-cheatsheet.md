@@ -145,7 +145,6 @@ var fracNum = game.rnd.frac();
 function create() {
     //image, sprite, audio and others are all methods of the factory
     game.add.image(x, y, 'key');
-
     var player = game.add.sprite(x, y, 'key', frame, group);
 
     //You can add existing objects too
