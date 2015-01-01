@@ -32,7 +32,7 @@ We need to do a few things:
 
 ###Getting started
 
-I'm using my [Browserify template](http://invrse.co/build-phaser-with-browserify) - while you can follow along even if you are not using it, I highly it because it greatly simplifies code structure without requiring you to solve dependencies manually.
+I'm using my [Browserify template](http://invrse.co/build-phaser-with-browserify) - while you can follow along even if you are not using it, I highly recommend it because it greatly simplifies code structure without requiring you to solve dependencies manually.
 
 Before anything else, we preload our assets. I'm using my load state to preload them, so that everything is loaded in one place.
 
