@@ -146,6 +146,10 @@ function create() {
     //image, sprite, audio and others are all methods of the factory
     game.add.image(x, y, 'key');
     var player = game.add.sprite(x, y, 'key', frame, group);
+
+    //You can add existing objects too
+    var sprite = new Phaser.Sprite(game, x, y, 'key');
+    game.add.existing(sprite);
 }
 {% endhighlight %}
 
@@ -286,6 +290,24 @@ game.time.events.pause(loopingTimer);
 game.time.events.remove(once);
 {% endhighlight %}
 
+###Calculating elapsed time
+
+<small>Reference: <a href="http://docs.phaser.io/Phaser.Time.html" target="_blank">http://docs.phaser.io/Phaser.Time.html</a></small>
+
+{% highlight javascript %}
+//You can get the current time
+var currentTime = game.time.time;
+
+//You can get the elapsed time (milliseconds) since the last update
+var elapsedTime = game.time.elapsed;
+
+//Or you can get the elapsed time (seconds) since the last event tracked
+var lastEventTrackedTime = game.time.time;
+//Do something...
+var elapsedTime = game.time.elapsedSecondsSince(lastEventTrackedTime);
+
+{% endhighlight %}
+
 ###Input
 
 <small>Reference: <a href="http://docs.phaser.io/Phaser.Input.html" target="_blank">http://docs.phaser.io/Phaser.Input.html</a></small>
@@ -384,6 +406,10 @@ function update() {
     //You can perform additional checks with a processCallback
     //If it is false, the collision will not happens
     game.physics.arcade.collide(sprites, monsters, null, processCallback);
+
+    //Or you can check if two bodies overlap. This method avoids the impact
+    //between then, keeping their velocities and properties
+    game.physics.arcade.overlap(sprites, monsters, callback);
     
     //You can perform the following collisions:
     //Sprite vs Sprite or
@@ -422,6 +448,21 @@ emitter.setAlpha(min, max, rate, easing, yoyo);
 game.physics.startSystem(Phaser.Physics.ARCADE);
 emitter.gravity = 200;
 emitter.start();
+{% endhighlight %}
+
+###Debugging
+
+<small>Reference: <a href="http://docs.phaser.io/Phaser.Particles.Arcade.Emitter.html" target="_blank">http://docs.phaser.io/Phaser.Particles.Arcade.Emitter.html</a></small>
+
+{% highlight javascript %}
+//Print debug text
+game.debug.text(game.time.physicsElapsed, 10, 20);
+
+//Print debug body info
+game.debug.bodyInfo(player, 10, 20);
+
+//Shows a green rectangle that represents the hitbox of the sprite
+game.debug.body(player);
 {% endhighlight %}
 
 ###Contribute!
