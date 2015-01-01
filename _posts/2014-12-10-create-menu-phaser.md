@@ -265,7 +265,7 @@ module.exports = {
 };
 {% endhighlight %}
 
-This will break though, because we need to pass the cursor keys and the buttons object for the arrow.move function. We can add keyboard interation by adding the following line to menu.js' create function:
+This will break though, because we need to pass the cursor keys and the buttons object for the arrow.move function. We can add keyboard interaction by adding the following line to menu.js' create function:
 
 {% highlight javascript %}
 this.cursors = game.input.keyboard.createCursorKeys();
