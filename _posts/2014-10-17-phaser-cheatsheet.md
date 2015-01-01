@@ -10,6 +10,7 @@ categories:
 comments:   true
 
 ---
+<small>Last update: January 1st, 2015</small>
 
 <a href="http://phaser.io" target="_blank">Phaser</a> - the HTML5 game framework that [I've reviewed](http://invrse.co/phaser-review) - is pretty easy to use. It gets even easier with a cheatsheet though.
 
@@ -404,7 +405,7 @@ function update() {
     game.physics.arcade.collide(sprites, monsters, callback);
     
     //You can perform additional checks with a processCallback
-    //If it is false, the collision will not happens
+    //If it returns false the collision will not happen
     game.physics.arcade.collide(sprites, monsters, null, processCallback);
 
     //Or you can check if two bodies overlap. This method avoids the impact
@@ -452,16 +453,16 @@ emitter.start();
 
 ###Debugging
 
-<small>Reference: <a href="http://docs.phaser.io/Phaser.Particles.Arcade.Emitter.html" target="_blank">http://docs.phaser.io/Phaser.Particles.Arcade.Emitter.html</a></small>
+<small>Reference: <a href="http://docs.phaser.io/Phaser.Utils.Debug.html" target="_blank">http://docs.phaser.io/Phaser.Utils.Debug.html</a></small>
 
 {% highlight javascript %}
 //Print debug text
 game.debug.text(game.time.physicsElapsed, 10, 20);
 
-//Print debug body info
+//Print debug body information
 game.debug.bodyInfo(player, 10, 20);
 
-//Shows a green rectangle that represents the hitbox of the sprite
+//Show the sprite's hitbox as a green rectangle
 game.debug.body(player);
 {% endhighlight %}
 
