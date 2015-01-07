@@ -32,7 +32,7 @@ We need to do a few things:
 
 ###Getting started
 
-I'm using my [Browserify template](http://invrse.co/build-phaser-with-browserify) - while you can follow along even if you are not using it, I highly it because it greatly simplifies code structure without requiring you to solve dependencies manually.
+I'm using my [Browserify template](http://invrse.co/build-phaser-with-browserify) - while you can follow along even if you are not using it, I highly recommend it because it greatly simplifies code structure without requiring you to solve dependencies manually.
 
 Before anything else, we preload our assets. I'm using my load state to preload them, so that everything is loaded in one place.
 
@@ -265,7 +265,7 @@ module.exports = {
 };
 {% endhighlight %}
 
-This will break though, because we need to pass the cursor keys and the buttons object for the arrow.move function. We can add keyboard interation by adding the following line to menu.js' create function:
+This will break though, because we need to pass the cursor keys and the buttons object for the arrow.move function. We can add keyboard interaction by adding the following line to menu.js' create function:
 
 {% highlight javascript %}
 this.cursors = game.input.keyboard.createCursorKeys();
