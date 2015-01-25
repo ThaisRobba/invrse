@@ -99,7 +99,11 @@ ul.icons-footer {
     }
 }
 canvas {
-    width: 100%;
+    width: 100% !important;
+    position: relative !important;
+    height: auto !important;
+    min-height: auto !important;
+    min-width: 100% !important;
 }
 img {
     max-width: 100%;
