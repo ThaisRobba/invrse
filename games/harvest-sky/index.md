@@ -12,3 +12,15 @@ Plant crops, collect them and drop them into the yellow bin. Gather money and sp
 
 <canvas id="canvas" width="100%" height="100%"></canvas>
 <script type="text/javascript" src="game.min.js"></script>
+<script type="text/javascript">
+window.onkeydown = function(e) { 
+    return !(e.keyCode == 32);
+};
+
+window.addEventListener("keydown", function(e) {
+    // space and arrow keys
+    if([32, 37, 38, 39, 40].indexOf(e.keyCode) > -1) {
+        e.preventDefault();
+    }
+}, false);
+</script>
