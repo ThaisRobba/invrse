@@ -329,7 +329,7 @@ game.input.circle = 66;
 <small>Reference: <a href="http://docs.phaser.io/Phaser.Pointer.html" target="_blank">http://docs.phaser.io/Phaser.Pointer.html</a></small>
 
 {% highlight javascript %}
-if (game.input.mousePointer.isDown()) {
+if (game.input.mousePointer.isDown) {
     console.log("Mouse X when you clicked was: "+game.input.mousePointer.x);
 }
 {% endhighlight %}
