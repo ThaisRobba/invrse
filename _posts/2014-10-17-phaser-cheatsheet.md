@@ -245,6 +245,9 @@ function create() {
     //Assigned for later use
     var label = game.add.text(x, y, "text", {style}, group);
     label.text = "I'm changing the text inside the label var!";
+    //Center the text
+    var txt = game.add.text(game.world.centerX, game.world.centerY, "My Text");
+    txt.anchor.set(0.5, 0.5);
 }
 {% endhighlight %}
 
