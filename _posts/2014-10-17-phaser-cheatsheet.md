@@ -245,6 +245,9 @@ function create() {
     //Assigned for later use
     var label = game.add.text(x, y, "text", {style}, group);
     label.text = "I'm changing the text inside the label var!";
+    //Center the text
+    var txt = game.add.text(game.world.centerX, game.world.centerY, "My Text");
+    txt.anchor.set(0.5, 0.5);
 }
 {% endhighlight %}
 
@@ -329,7 +332,7 @@ game.input.circle = 66;
 <small>Reference: <a href="http://docs.phaser.io/Phaser.Pointer.html" target="_blank">http://docs.phaser.io/Phaser.Pointer.html</a></small>
 
 {% highlight javascript %}
-if (game.input.mousePointer.isDown()) {
+if (game.input.mousePointer.isDown) {
     console.log("Mouse X when you clicked was: "+game.input.mousePointer.x);
 }
 {% endhighlight %}
