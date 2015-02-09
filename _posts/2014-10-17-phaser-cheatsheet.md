@@ -335,6 +335,10 @@ game.input.circle = 66;
 if (game.input.mousePointer.isDown) {
     console.log("Mouse X when you clicked was: "+game.input.mousePointer.x);
 }
+
+//retrieve click event (need to be put in the create callback for exemple)
+//context is often this
+game.input.onDown.add(callback, context);
 {% endhighlight %}
 
 ###Keyboard input
