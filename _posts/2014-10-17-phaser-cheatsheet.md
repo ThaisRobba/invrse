@@ -136,6 +136,8 @@ game.stage.backgroundColor = '#6d94b5';
 var num = game.rnd.integerInRange(120, 480);
 var intNum = game.rnd.integer();
 var fracNum = game.rnd.frac();
+//Spawn a sprite at a random position
+game.add.sprit(game.world.randomX, game.world.randomY, 'mysprite');
 {% endhighlight %}
 
 ###Adding game objects
