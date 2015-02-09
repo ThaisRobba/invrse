@@ -339,8 +339,7 @@ if (game.input.mousePointer.isDown) {
     console.log("Mouse X when you clicked was: "+game.input.mousePointer.x);
 }
 
-//retrieve click event (need to be put in the create callback for exemple)
-//context is often this
+//Assign a callback and a context to a click event
 game.input.onDown.add(callback, context);
 {% endhighlight %}
 
