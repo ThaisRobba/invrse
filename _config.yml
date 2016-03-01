@@ -3,7 +3,7 @@ title: invrse - the game development blog
 email: ottorobba@gmail.com
 author: Otto Robba
 description: "Educational blog on game design and development, including topics like programming, tools, workflow and techniques."
-baseurl: ""
+baseurl: "http://ottorobba.github.io/invrse/"
 url: "http://ottorobba.github.io/invrse"
 google_analytics: UA-55865997-1
 animated: false
