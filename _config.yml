@@ -1,10 +1,10 @@
 # Site settings
 title: invrse - the game development blog
-email: ottorobba@gmail.com
-author: Otto Robba
+email: thaisrobba@gmail.com
+author: Thaís Robba
 description: "Educational blog on game design and development, including topics like programming, tools, workflow and techniques."
-baseurl: "http://ottorobba.github.io/invrse"
-url: "http://ottorobba.github.io/invrse"
+baseurl: "http://thaisrobba.github.io/invrse"
+url: "http://thaisrobba.github.io/invrse"
 google_analytics: UA-55865997-1
 animated: false
 
