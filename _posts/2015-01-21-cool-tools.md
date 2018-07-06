@@ -15,9 +15,9 @@ image: jamtools
 
 What follows is a list of tools that *really* help in a pinch. They are all free and, in many cases, open source. Some I've showcased here before, others are new!
 
-##Drawing
+<h2>Drawing</h2>
 
-###<a href="http://piskelapp.com/" target="_blank">Piskel</a>
+<h3><a href="http://piskelapp.com/" target="_blank">Piskel</a></h3>
 
 
 <a href="http://piskelapp.com/" target="_blank"><img src="{{site.baseurl}}/assets/tools/piskel.png" class="img_left"></a>
@@ -31,7 +31,7 @@ What follows is a list of tools that *really* help in a pinch. They are all free
 
 <div class="clear"></div>
 
-###<a href="http://pixieengine.com/" target="_blank">PixieEngine</a>
+<h3><a href="http://pixieengine.com/" target="_blank">PixieEngine</a></h3>
 
 <a href="http://pixieengine.com/" target="_blank"><img src="{{site.baseurl}}/assets/tools/pixie.png" class="img_left"></a>
 
@@ -41,9 +41,9 @@ What follows is a list of tools that *really* help in a pinch. They are all free
 
 <div class="clear"></div>
 
-##Sprite manipulation
+<h2>Sprite manipulation</h2>
 
-###<a href="http://renderhjs.net/shoebox/" target="_blank">Shoebox</a>
+<h3><a href="http://renderhjs.net/shoebox/" target="_blank">Shoebox</a></h3>
 
 <a href="http://renderhjs.net/shoebox/" target="_blank"><img src="{{site.baseurl}}/assets/tools/shoebox.png" class="img_left"></a>
 
@@ -55,7 +55,7 @@ What follows is a list of tools that *really* help in a pinch. They are all free
 
 <div class="clear"></div>
 
-###<a href="http://www.imagemagick.org" target="_blank">ImageMagick</a>
+<h3><a href="http://www.imagemagick.org" target="_blank">ImageMagick</a></h3>
 
 <a href="http://www.imagemagick.org" target="_blank"><img src="{{site.baseurl}}/assets/tools/imagemagick.png" class="img_left"></a>
 
@@ -65,7 +65,7 @@ What follows is a list of tools that *really* help in a pinch. They are all free
 
 <div class="clear"></div>
 
-###<a href="https://www.codeandweb.com/texturepacker" target="_blank">TexturePacker</a>
+<h3><a href="https://www.codeandweb.com/texturepacker" target="_blank">TexturePacker</a></h3>
 
 
 <a href="https://www.codeandweb.com/texturepacker" target="_blank"><img src="{{site.baseurl}}/assets/tools/texturepacker.png" class="img_left"></a>
@@ -77,7 +77,7 @@ What follows is a list of tools that *really* help in a pinch. They are all free
 
 <div class="clear"></div>
 
-###<a href="http://spritecutie.com/" target="_blank">SpriteCutie</a>
+<h3><a href="http://spritecutie.com/" target="_blank">SpriteCutie</a></h3>
 
 <a href="http://spritecutie.com/" target="_blank"><img src="{{site.baseurl}}/assets/tools/spritecutie.png" class="img_left"></a>
 
@@ -86,9 +86,9 @@ What follows is a list of tools that *really* help in a pinch. They are all free
 
 <div class="clear"></div>
 
-##Fonts
+<h2>Fonts</h2>
 
-###<a href="http://arcade.photonstorm.com/" target="_blank">Arcade Font Writer</a>
+<h3><a href="http://arcade.photonstorm.com/" target="_blank">Arcade Font Writer</a></h3>
 
 <a href="http://arcade.photonstorm.com/" target="_blank"><img src="{{site.baseurl}}/assets/tools/arcadefont.png" class="img_left"></a>
 
@@ -96,7 +96,7 @@ What follows is a list of tools that *really* help in a pinch. They are all free
 
 <div class="clear"></div>
 
-###<a href="http://kvazars.com/littera/" target="_blank">Littera</a>
+<h3><a href="http://kvazars.com/littera/" target="_blank">Littera</a></h3>
 
 <a href="http://kvazars.com/littera/" target="_blank"><img src="{{site.baseurl}}/assets/tools/littera.png" class="img_left"></a>
 
@@ -105,9 +105,9 @@ What follows is a list of tools that *really* help in a pinch. They are all free
 
 <div class="clear"></div>
 
-##Map editing
+<h2>Map editing</h2>
 
-###<a href="http://www.mapeditor.org/" target="_blank">Tiled</a>
+<h3><a href="http://www.mapeditor.org/" target="_blank">Tiled</a></h3>
 
 <a href="http://www.mapeditor.org/" target="_blank"><img src="{{site.baseurl}}/assets/tools/tiled.png" class="img_left"></a>
 
@@ -119,9 +119,9 @@ What follows is a list of tools that *really* help in a pinch. They are all free
 
 <div class="clear"></div>
 
-##Sound
+<h2>Sound</h2>
 
-###<a href="http://www.bfxr.net/" target="_blank">bfxr</a>
+<h3><a href="http://www.bfxr.net/" target="_blank">bfxr</a></h3>
 
 <a href="http://www.bfxr.net/" target="_blank"><img src="{{site.baseurl}}/assets/tools/bfxr.png" class="img_left"></a>
 
@@ -132,7 +132,7 @@ What follows is a list of tools that *really* help in a pinch. They are all free
 
 <div class="clear"></div>
 
-###<a href="http://audacity.sourceforge.net/" target="_blank">Audacity</a>
+<h3><a href="http://audacity.sourceforge.net/" target="_blank">Audacity</a></h3>
 
 <a href="http://audacity.sourceforge.net/" target="_blank"><img src="{{site.baseurl}}/assets/tools/audacity.png" class="img_left"></a>
 
@@ -144,7 +144,7 @@ What follows is a list of tools that *really* help in a pinch. They are all free
 
 <div class="clear"></div>
 
-###Extra resources
+<h3>Extra resources</h3>
 
 Do you have an essential tool that is not here but should be? Is it free and cross platform? If so, let me know in the comments below and I'll add it to the list!
 
