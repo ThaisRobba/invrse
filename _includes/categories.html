@@ -2,7 +2,7 @@
     <h5>DevLife</h5>
     {% for category in site.categories %} {% if category[0] == 'devlife' %} {% for catposts in category %} {% if forloop.first %} {% continue %} {% endif %} {% for catpost in catposts %}
     <li class="list-style-none home-list">
-        <a class="link-homelist" href="{{ catpost.url }}">{{ catpost.title }}</a>
+        <a class="link-homelist" href="{{ site.url }} {{ catpost.url }}">{{ catpost.title }}</a>
     </li>
     {% endfor %} {% endfor %} {% endif %} {% endfor %}
 </ul>
@@ -12,7 +12,7 @@
     {% for category in site.categories %} {% if category[0] == 'review' %} {% for catposts in category %} {% if forloop.first %} {% continue %} {% endif %} {% for catpost in catposts %}
 
     <li class="list-style-none home-list">
-        <a class="link-homelist" href="{{ catpost.url }}">{{ catpost.title }}</a>
+        <a class="link-homelist" href="{{ site.url }} {{ catpost.url }}">{{ catpost.title }}</a>
     </li>
     {% endfor %} {% endfor %} {% endif %} {% endfor %}
 </ul>
@@ -22,7 +22,7 @@
     {% for category in site.categories %} {% if category[0] == 'resource'%} {% for catposts in category %} {% if forloop.first %} {% continue %} {% endif %} {% for catpost in catposts %}
 
     <li class="list-style-none home-list">
-        <a class="link-homelist" href="{{ catpost.url }}">{{ catpost.title }}</a>
+        <a class="link-homelist" href="{{ site.url }} {{ catpost.url }}">{{ catpost.title }}</a>
     </li>
     {% endfor %} {% endfor %} {% endif %} {% endfor %}
 </ul>
@@ -32,7 +32,7 @@
     {% for category in site.categories %} {% if category[0] == 'tutorial' %} {% for catposts in category %} {% if forloop.first %} {% continue %} {% endif %} {% for catpost in catposts %}
 
     <li class="list-style-none home-list">
-        <a class="link-homelist" href="{{ catpost.url }}">{{ catpost.title }}</a>
+        <a class="link-homelist" href="{{ site.url }} {{ catpost.url }}">{{ catpost.title }}</a>
     </li>
     {% endfor %} {% endfor %} {% endif %} {% endfor %}
 </ul>
