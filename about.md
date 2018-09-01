@@ -32,14 +32,13 @@ and lo and behold, it was a game. A simple, 8-bit minded beat'em up.
 And then it got me thinking. He made that game. Maybe, just maybe, it is not such an impossible task.
 Maybe I could learn by myself. Maybe now with the internet I can actually find the information I need.
 
-For the past year and a half I've been studying programming and I've completely fallen in love with it. I've learned Processing, Lua, Moonscript and Javascript. I'm nowhere near being an expert but I'm learning and evolving and I can proudly say that I'm no longer a newbie.
+From 2014 onwards I've been studying programming and I've completely fallen in love with it. I've learned Processing, Lua, Moonscript and Javascript. I'm constantly learning and evolving, tackling all kinds of different problems.
 
 ![I make games]({{site.baseurl}}/assets/about/game_design.png)
 
-So what do I do now? I make [games]({{site.url}}/games/)! I've participated in the 2014s Global Game Jam and the SPJam
-(in which we won a prize for [our game!]({{site.url}}/games/jamleon/) Yay!)
+So what do I do now? I design software for a living, creating the best experiences that I can!
 
 I *love* what I do. Yes, it is hard. Yes, it is at times very frustrating.
 I feel extremely happy when I do it though.
 
-Hi. I'm **Otto**.
+Hi. I'm **Thaís**.
