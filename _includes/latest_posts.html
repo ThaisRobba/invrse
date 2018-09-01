@@ -7,10 +7,10 @@
 
 {% for post in site.posts limit:3 %}
 	  <li class="list-style-none featured-box">
-            <a class="featured-link" href="{{ post.url }}"><img class="square" src="{{site.baseurl}}/assets/featured/{{post.image}}.png"></a>
+            <a class="featured-link" href="{{ post.url }}"><img class="square" src="{{site.url}}/assets/featured/{{post.image}}.png"></a>
             <div class="featured-box-p">
                 <p class="post-meta center">{{ post.date | date: "%b %-d, %Y" }}</p>
-                <div class="vertical-align center"><a class="featured-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
+                <div class="vertical-align center"><a class="featured-link" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></div>
             </div>
         </li>
 {% endfor %}
